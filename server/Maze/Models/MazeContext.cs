@@ -297,35 +297,35 @@ namespace Maze.Models
           {
             PageId = 41,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . a room with a special piece of furniture I thought might appeal to my guests. 'How can we trust that thing?' one remarked. 'Who knows where it ends up . . .' I knew, naturally, but that wasn't the point. They were pretty sure of themselves, and went right on to . . .",
           },
 
           new Page
           {
             PageId = 42,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . the next room. In one comer a savage animal appeared ready to leap out, roaring, rending with tusk and claw . . . but it was only a bit of taxidermy after all. I suggested they might wish to hang up their coats before going on. 'How will we find them?' one asked. 'We might not pass through here again.' I assured them I would help them to return. 'You can count on me,' I said sincerely. Still, they wouldn't leave anything behind. Opening one of the doors we made our way to . . .",
           },
 
           new Page
           {
             PageId = 43,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . a great hall, dominated by the entrance to room 22. The face over the door had a sly look. 'Is it good or bad to have only two choices?' they wanted to know. It was, predictably enough, neither 'good' nor 'bad'. These people just didn't know how to phrase a meaningful question. You have to be very particular in this House, We went on to  . . .",
           },
 
           new Page
           {
             PageId = 44,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . a courtyard of palms and statues. The trees waved to each other in the breeze. 'Who left the door open?' they wanted to know. 'We came in that way,' I offered, but they were convinced we had entered by another door entirely. They vanished through the wall and I followed them to . . .",
           },
 
           new Page
           {
             PageId = 45,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . the room at the center of the Maze. My guests thought that whoever lived here was a careless person, to leave so many things around. They were wrong. There was really only one thing for them to find: the Riddle of the Maze. They demanded that I show it to them. 'Do you think it is written on the wall for all to see? It is hidden here, somewhere, perhaps throughout the room. As far as you are concerned, what the Maze teaches can be learned in every room.' They looked and looked . . . every group is the same, 'Now,' I said, after a last look around, 'we must find our way back out.' Leaving the center of the Maze we found ourselves in . . .",
           }
         );
     }
