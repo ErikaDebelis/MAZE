@@ -51,8 +51,8 @@ namespace Maze.Models
           new Page
           {
             PageId = 6,
-            Name = "",
-            Description = ". . . a gloomy, cavelike place far underground, Even I was oppressed by the weight that hung over our heads. A very small hole, high above, admitted a feeble light. Standing in the light one ofthem put his hand out. 'I think it may be raining out there . . .' They didn't like the look of the place. 'You continue to judge everything by the way it looks!' I cried, exasperated by their timidity. I knew I shouldn't have said anything. If you think of all the deceptions practiced in my family, particularly on my father . . . We went down the only way open to us and came to . . .",
+            Picture = "",
+            Text = ". . . a gloomy, cavelike place far underground, Even I was oppressed by the weight that hung over our heads. A very small hole, high above, admitted a feeble light. Standing in the light one ofthem put his hand out. 'I think it may be raining out there . . .' They didn't like the look of the place. 'You continue to judge everything by the way it looks!' I cried, exasperated by their timidity. I knew I shouldn't have said anything. If you think of all the deceptions practiced in my family, particularly on my father . . . We went down the only way open to us and came to . . .",
           },
 
           new Page
@@ -86,9 +86,72 @@ namespace Maze.Models
           new Page
           {
             PageId = 11,
-            Name = "",
-            Description = ". . . an airy room with many doors. It was a big space, but I still felt crowded. I’ve always hated confinement, 'Whatever you do,' I warned them, 'don't touch that!' 'This must be an important room,' said one of them. 'It has more doors than any of the others . . .' This was not true but I didn't want to interrupt. 'With so many paths crossing here we must be close to the center,' she continued. I had noticed this guest before; I would have to be careful, 'This is an important choice,' I said, trying to encourage them. Gratefully leaving the room behind we walked all the way to . . .",
+            Picture = "",
+            Text = ". . . an airy room with many doors. It was a big space, but I still felt crowded. I’ve always hated confinement, 'Whatever you do,' I warned them, 'don't touch that!' 'This must be an important room,' said one of them. 'It has more doors than any of the others . . .' This was not true but I didn't want to interrupt. 'With so many paths crossing here we must be close to the center,' she continued. I had noticed this guest before; I would have to be careful, 'This is an important choice,' I said, trying to encourage them. Gratefully leaving the room behind we walked all the way to . . .",
           }
+
+                    new Page
+          {
+            PageId = 12,
+            Picture = ,
+            Text = ". . . a spacious room with a hole in the floor, A ladder led downinto the shadows. Outside, leaves shook in the wind, Theydidn't like the look of that hole in the floor.'Too dark down there!' they cried, “Who knows what's at the bottom. 'They looked at me again. Probably a room of some kind,' I volunteered quickly. 'But you know what l say about appearances.' It would have been a relief to get outside for a while. They wanted to know if they had been here before. . . . How could I answer that? 'I have the strangest feeling of deja vu,' said one who, bolder than the rest, led us into . . .",
+          },
+
+          new Page
+          {
+            PageId = 13,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 14,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 15,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 16,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 17,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 18,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 19,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 20,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
         );
     }
 
@@ -97,3 +160,73 @@ namespace Maze.Models
   }
 }
 
+
+          // new Page
+          // {
+          //   PageId = 1,
+          //   Picture = ,
+          //   Text = ". . .  . . .",
+          // },
+
+          // new Page
+          // {
+          //   PageId = 2,
+          //   Picture = ,
+          //   Text = ". . .  . . .",
+          // },
+
+          // new Page
+          // {
+          //   PageId = 3,
+          //   Picture = ,
+          //   Text = ". . .  . . .",
+          // },
+
+          // new Page
+          // {
+          //   PageId = 4,
+          //   Picture = ,
+          //   Text = ". . .  . . .",
+          // },
+
+          // new Page
+          // {
+          //   PageId = 5,
+          //   Picture = ,
+          //   Text = ". . .  . . .",
+          // },
+
+          // new Page
+          // {
+          //   PageId = 6,
+          //   Picture = ,
+          //   Text = ". . .  . . .",
+          // },
+
+          // new Page
+          // {
+          //   PageId = 7,
+          //   Picture = ,
+          //   Text = ". . .  . . .",
+          // },
+
+          // new Page
+          // {
+          //   PageId = 8,
+          //   Picture = ,
+          //   Text = ". . .  . . .",
+          // },
+
+          // new Page
+          // {
+          //   PageId = 9,
+          //   Picture = ,
+          //   Text = ". . .  . . .",
+          // },
+
+          // new Page
+          // {
+          //   PageId = 0,
+          //   Picture = ,
+          //   Text = ". . .  . . .",
+          // },
