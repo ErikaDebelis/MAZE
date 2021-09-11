@@ -222,6 +222,76 @@ namespace Maze.Models
             Picture = ,
             Text = ". . . room number 30. 'What a beautiful door ... the others are so plain,' said one. 'It's meant to influence our decision,' said another. 'Perhaps this has been done so we will not choose this door,' said the thoughtful one. They wanted to know what the letters meant. Obviously they meant something, and I said so. 'Yes, but. . . why 'O' and 'U'? What special significance can they have for us?' The more confused they became, the more I enjoyed it. No matter how many times I've been through this I’m always fascinated. Leaving the room and all that it contained behind us, we entered . . .",
           },
+
+          new Page
+          {
+            PageId = 31,
+            Picture = ,
+            Text = ". . . a melancholy little courtyard surrounded by a brick wall too high to see over. A dead tree lifted its bone-white branches to a sky filling with gray clouds. 'Those doors look very strange,' they said. 'You should say, 'They look very strangely'' I corrected, 'They seem to be watching us. . .' A sudden gust of wind made the branches clatter against each other like old boards. Dead leaves began to gather at our feet. Shivering in the wind we managed to push open one of the heavy doors and make our way to . . .",
+          },
+
+          new Page
+          {
+            PageId = 32,
+            Picture = ,
+            Text = ". . . a large square room with a hole rudely broken through one wall. It must have taken a great deal of strength to pull the heavy stones out of position. The symmetry was also disturbed by the apparent loss of one of the room's statues. My visitors thought a thief had broken into the room, removed the figure, and made away with it. This, of course, was one explanation. 'Another one!' they cried, 'You mean another representative of the animal kingdom?' I asked, “What is a bird like that doing here?' 'Roosting, evidently.' Their attitude was really beginning to irritate me. I have come to think of all the inhabitants of this House as members of my little kingdom. People can be so arrogant. . . in a very real way we are all of us animals, at least in part. I wouldn't answer any more of their questions so we left this room to enter . . . ",
+          },
+
+          new Page
+          {
+            PageId = 33,
+            Picture = ,
+            Text = ". . . the room with no floor. They crowded each other on the narrow ledge, The bold one ventured out to the center. Realizing that they could see all of the signs only from the center of the room, several wanted to turn back. With exaggerated caution, considering their predicament, they finally reached the door they wanted and eventually found themselves in . . .",
+          },
+
+          new Page
+          {
+            PageId = 34,
+            Picture = ,
+            Text = ". . . a middle-class drawing room or parlor. It was amazing how much more comfortable they felt in these surroundings. Everyone sat down, some on the floor, and chatted about where they had been and where they should go. 'Magpies!' I said to myself. 'Not a real thought in their heads.' They were so much at ease they almost missed what the room was telling them altogether. They finally got the message, which I thought was pretty obvious, and we went on to . . .",
+          },
+
+          new Page
+          {
+            PageId = 35,
+            Picture = ,
+            Text = ". . . what appeared to be someone's basement. One of them sank gratefully down on an old couch which promptly collapsed, I tried to hide my smile. 'A totem, or tribal fetish,' said one, walking around the center of the room. 'It could be a work of art,' suggested another. 'Perhaps it's a signal to us,' the thoughtful one said. 'A warning or direction?' 'Not much help when there is only one way to go,' put in another. 'I still think it’s a signal.' 'Yes,' I said right away, 'I'm sure you’re right.' She was immediately suspicious. Still, with no real choice to make, we left the thing standing alone in light and silence, and went into . . .",
+          },
+
+          new Page
+          {
+            PageId = 36,
+            Picture = ,
+            Text = ". . . an old and ruinous part of the House. Turning a corner the music we had been hearing became louder and at last we saw the musicians themselves. They were so involved they failed to hear us. The music was suited to the scene— a moody, romantic melody. We stopped to listen and I admit that I, too, was affected by the sound as well as by the spectacle of the masked players. One of the visitors noticed me listening. 'Beautiful music, don't you think?' 'It's not bad,' I said stiffly. 'The viol brings the right sense of warmth to the piece, but the guitarist is overplaying his part. Still, he adds a certain plangent brio to an otherwise introspective composition . . .' Unwilling to interrupt the concert we slipped past the musicians into the door to . . .",
+          },
+
+          new Page
+          {
+            PageId = 37,
+            Picture = ,
+            Text = ". . . a long, open room with no roof. 'What is going on here?' they wondered. 'Sometimes, important messages are couched in ambiguous terms,' I said. 'That net may help you catch the answer to your question,' They looked doubtful. 'We must look at this from all sides before we make a decision,' At last, they were learning. They really couldn't decide which way to go; half of them wanted to go one way, half another. They were close to splitting up when there was a rattling sound and one of the doors was shaken from the other side. They all stopped talking and moved doser together. They soon agreed on a direction and we departed for . . .",
+          },
+
+          new Page
+          {
+            PageId = 38,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 39,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 40,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
         );
     }
 
