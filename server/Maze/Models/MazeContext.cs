@@ -164,63 +164,63 @@ namespace Maze.Models
           {
             PageId = 22,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . a gaudy room that reminded me of a theatrical backdrop. Places like this are overdone, for my taste, but some people like the exotic . . . well, everyone is a critic. It's true, I am by nature extremely critical. Although my life is a lonely one I have not spared any of my guests the rigor of my judgment. . . . We all have our roles to play. This is not a bad place, really; one could spend quite some time here. However, in their restive way, the group moved on to . . . ",
           },
 
           new Page
           {
             PageId = 23,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . a room with three other doors. Looking out the windows my feet crushed something on the floor. 'Watch your step here.' I warned them. I'm always ready to be helpful with the less important things. 'Look at those two trees out there,' one said, looking over my shoulder, which is not easy to do. 'Must be a real wind coming up.' Now they realized that it could rain where they were going. 'We should have brought that bumbershoot with us from the coat room . . .' 'Which room was that?' 'You remember, the one with the animal. . .' I suggested that we take the door on my right and they realized they had found the door they had been seeking for so long, the entrance to . . .",
           },
 
           new Page
           {
             PageId = 24,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . a place of unlimited darkness. 'Where are the doors?' they asked nervously. 'We can't see any doors. . .' 'Be careful where you step!' said a cold voice, 'This spot is taken.' Dozens of eyes blinked at us in the Stygian gloom. By the time my uncertain visitors turned to ask me what to do I was already far away. 'There are no doors,' said the voice. 'You are here with the rest of us now . . ' Even my bellowing laughter couldn’t fill this space.",
           },
 
           new Page
           {
             PageId = 25,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . a high room with the image of a crown on the wall for everyone to see now. Though one of my parents might be low-born, the other was close to a king.... I've always felt at home here. 'Which door ought we take?' they wanted to know, I rather brusquely indicated the three doors, 'Any of these is fine for my purposes.' They were disconcerted at the apparent lack of dues. 'Perhaps in another room,' they said, leaving for . . .",
           },
 
           new Page
           {
             PageId = 26,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . a dramatic room with four entrances and exits, 'Not enough light in here,' they remarked, 'Not very tidy either.' 'Which way now, children?' I asked in my most patronizing voice. They objected to my tone, but it distracted them from the real dues. The game usually goes as I plan it, despite the intentions of my visitors, or perhaps because of their intentions. 'What the devil is this supposed to be?' one asked. They gathered around and I realized they were dose to something. I quickly picked up the bell, ringing it loudly. 'Was this what you heard outside?' Holding their ears they ran out the door to . . .",
           },
 
           new Page
           {
             PageId = 27,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . a darkened chamber dominated by a large figure. We could see that someone had been working here recently; the entrance I had so carefully hidden had been uncovered, I made a note to return as soon as I could and fill in the hole again. The visitors were so intrigued with the entrance at the bottom of the excavation that they ignored what the figure was trying to tell them' 'Where are the workmen?' 'They must be ahead of us,' I said. 'If we hurry we can catch them . . . I mean catch up with them.' I herded the group through the door to . . .",
           },
 
           new Page
           {
             PageId = 28,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . a spacious room with a hole in the floor. A ladder led down into the shadows. Outside, leaves shook in the wind. They didn't like the look of that hole in the floor. 'Too dark down there!' they cried. 'Who knows what’s at the bottom,' They looked at me again. 'Probably a room of some kind,' I volunteered quickly, 'But you know what I say about appearances.' It would have been a relief to get outside for a while. They wanted to know if they had been here before. . . . How could I answer that? 'I have the strangest feeling of deja vu,' said one who, bolder than the rest, led us into . . .",
           },
 
           new Page
           {
             PageId = 29,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . a much smaller room. A person with a white staff turned to face us. His associate shrugged, not an easy thing to do in his position, and went back to what he had been doing. 'Look, look,' said the person with the staff 'This is very important . . . ' I snatched the paper from his hand and tore it to pieces. 'How will he find his way without directions?' the group wanted to know. 'Don't worry,' said the man, 'here blindness is no disadvantage.' I hurried my visitors out as quickly as I could to . . .",
           },
 
           new Page
           {
             PageId = 30,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . room number 30. 'What a beautiful door ... the others are so plain,' said one. 'It's meant to influence our decision,' said another. 'Perhaps this has been done so we will not choose this door,' said the thoughtful one. They wanted to know what the letters meant. Obviously they meant something, and I said so. 'Yes, but. . . why 'O' and 'U'? What special significance can they have for us?' The more confused they became, the more I enjoyed it. No matter how many times I've been through this I’m always fascinated. Leaving the room and all that it contained behind us, we entered . . .",
           },
         );
     }
