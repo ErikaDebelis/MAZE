@@ -17,7 +17,7 @@ namespace Maze.Models
           {
             PageId = 1,
             Picture = ,
-            Text = ". . . the entrance hall of the Maze, They looked carefully at the bronze doors, trying to choose.The uncertainty of visitors is one of my little pleasures, 'It’s easy to get lost,' I said helpfully. 'This can be a sinister place,' The sun glared at me through the gateway, Something was ringing behind one of the doors. They spent some time trying to decide which door it was, not understanding that the silences of the Maze are as eloquent as the sounds. 'Decisions, decisions,' one said. 'Too many decisions.' 'The story of my life,' said another. 'We don’t want to be late,' said a third, opening one of the doors. 'Nary a soul to be seen,' said the first, peering into the gloom. I waited patiently for them to choose which way to go . . . into . . .",
+            Text = ". . . the entrance hall of the Maze. They looked carefully at the bronze doors, trying to choose. The uncertainty of visitors is one of my little pleasures. 'It’s easy to get lost,' I said helpfully. 'This can be a sinister place,' The sun glared at me through the gateway. Something was ringing behind one of the doors. They spent some time trying to decide which door it was, not understanding that the silences of the Maze are as eloquent as the sounds. 'Decisions, decisions,' one said. 'Too many decisions.' 'The story of my life,' said another. 'We don’t want to be late,' said a third, opening one of the doors. 'Nary a soul to be seen,' said the first, peering into the gloom. I waited patiently for them to choose which way to go . . . into . . .",
           },
 
           new Page
@@ -31,7 +31,7 @@ namespace Maze.Models
           {
             PageId = 3,
             Picture = ,
-            Text = ". . . an entirely different kind of place.The group complained of feeling 'all turned around,' as well they might. Because no one wanted to stay here very long they missed the real sign while looking through the obvious. People in their situation, confronted with a challenge, tend to accept the terms of the challenge as a given, without examining it from all sides. How many sides does that problem have? They don’t know. We passed down a long flight of stairs, through some sort of pantry, and on into . . .",
+            Text = ". . . an entirely different kind of place. The group complained of feeling 'all turned around,' as well they might. Because no one wanted to stay here very long they missed the real sign while looking through the obvious. People in their situation, confronted with a challenge, tend to accept the terms of the challenge as a given, without examining it from all sides. How many sides does that problem have? They don't know. We passed down a long flight of stairs, through some sort of pantry, and on into . . .",
           },
 
           new Page
