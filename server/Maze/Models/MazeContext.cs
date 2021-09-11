@@ -129,26 +129,96 @@ namespace Maze.Models
           {
             PageId = 17,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . .  a room with a floor of sand. 'Amphorae’ I pronounced; empty, of course, 'This is an easier choice to make' they said. “You may think so' I muttered to myself, 'but your choices are more limited than you know.' One should never accept the obvious here. If you think of the Maze as a machine, confusion is its product, and the machine was hard at work. Ignoring my good advice they hurried into . . . ",
           },
 
           new Page
           {
             PageId = 18,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . a much warmer room. Shadows danced across the floor to the fire's music, 'Someone's lost his hat.' 'Are you sure it's the hat that is lost?' I asked reasonably enough. No one would answer me. Ducking behind a curtain and hurrying down a passageway we came out in . . . .",
           },
 
           new Page
           {
             PageId = 19,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . a shaded portico. A late afternoon sun warmed the rough blocks of stone. 'Get out of the way!' someone called. We moved into the yard, squinting at the strong light. One of them sat on a marble bench after I politely pushed some flowers aside. 'Did you pick these for me?' she asked, looking me in the eye. I had to tell her the truth, In another part of the grounds someone was singing but they couldn't make out the words. Like children they soon became restless and impatient to see something new, so we went on to  . . .",
           },
 
           new Page
           {
             PageId = 20,
+            Picture = ,
+            Text = ". . . room number 20. The ringing stopped as soon as we entered. 'What is the matter now?' I asked them. 'Too many animals for a proper house!' They walked carefully around the edges of the room. I watched with an amusement shared, I think, by the wise old tortoise. With backward looks and muttered comments about turtles they left room number 20 and entered . . .",
+          },
+
+          new Page
+          {
+            PageId = 21,
+            Picture = ,
+            Text = ". . . a yard containing shrubs trimmed in ornamental shapes. 'This,' I began, 'is called . . . ' 'We know what the name is,' they interrupted. 'Why don’t you just tell us which way to go?' 'I wasn’t referring to the plants,' I said in a huff. I refused to say anything else, leaving them to find their own way to . . .",
+          },
+
+          new Page
+          {
+            PageId = 22,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 23,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 24,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 25,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 26,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 27,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 28,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 29,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 30,
             Picture = ,
             Text = ". . .  . . .",
           },
