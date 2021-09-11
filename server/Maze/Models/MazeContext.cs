@@ -276,22 +276,57 @@ namespace Maze.Models
           {
             PageId = 38,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . a narrow space where one wall boasted half-finished carvings and another some sort of carnival poster. There was a little confusion as we made our entrance but we soon sorted ourselves out. It was impossible to climb up the slippery slide and another door wouldn’t open for us, so after emptying the pebbles from our shoes, we marched on to . . .",
           },
 
           new Page
           {
             PageId = 39,
             Picture = ,
-            Text = ". . .  . . .",
+            Text = ". . . what looked like a combination wine cellar and junk room. Someone had been working here as well, 'This is more to my taste,' said one, dusting off some labels. All the bottles turned out to be empty. 'I hear someone hammering.' said one, 'No, that’s a chopping sound.' said another. None of them heard the feint jingling that came from behind the wall. 'I don't hear anything,' I said loudly and, with as much commotion as possible, hurried them out of the room to . . .",
           },
 
           new Page
           {
             PageId = 40,
             Picture = ,
+            Text = ". . . the foundation of the Maze, Deep underground stones had been carved and fitted; passages opened in the natural rock, 'These symbols are quite unusual' said one. 'They seem to be primitive signs. . .' 'Do you know what signs?' I asked him. 'Oh, you know . . . wind and water, hills and planets.' It was surprising that he could identify any of the symbols, but I was relieved that he couldn’t read them correctly. Choosing more or less at random they went through a passageway to . . .",
+          },
+
+          new Page
+          {
+            PageId = 41,
+            Picture = ,
             Text = ". . .  . . .",
           },
+
+          new Page
+          {
+            PageId = 42,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 43,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 44,
+            Picture = ,
+            Text = ". . .  . . .",
+          },
+
+          new Page
+          {
+            PageId = 45,
+            Picture = ,
+            Text = ". . .  . . .",
+          }
         );
     }
 
