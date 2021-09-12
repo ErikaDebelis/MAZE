@@ -258,7 +258,7 @@ namespace Maze.Models
             PageId = 31,
             Picture = ,
             Text = ". . . a melancholy little courtyard surrounded by a brick wall too high to see over. A dead tree lifted its bone-white branches to a sky filling with gray clouds. 'Those doors look very strange,' they said. 'You should say, 'They look very strangely'' I corrected, 'They seem to be watching us. . .' A sudden gust of wind made the branches clatter against each other like old boards. Dead leaves began to gather at our feet. Shivering in the wind we managed to push open one of the heavy doors and make our way to . . .",
-            Doors = ,
+            Doors = 44, 19, 21, 
           },
 
           new Page
@@ -266,7 +266,7 @@ namespace Maze.Models
             PageId = 32,
             Picture = ,
             Text = ". . . a large square room with a hole rudely broken through one wall. It must have taken a great deal of strength to pull the heavy stones out of position. The symmetry was also disturbed by the apparent loss of one of the room's statues. My visitors thought a thief had broken into the room, removed the figure, and made away with it. This, of course, was one explanation. 'Another one!' they cried, 'You mean another representative of the animal kingdom?' I asked, “What is a bird like that doing here?' 'Roosting, evidently.' Their attitude was really beginning to irritate me. I have come to think of all the inhabitants of this House as members of my little kingdom. People can be so arrogant. . . in a very real way we are all of us animals, at least in part. I wouldn't answer any more of their questions so we left this room to enter . . . ",
-            Doors = ,
+            Doors = 11, 6, 28, 16,
           },
 
           new Page
@@ -274,7 +274,7 @@ namespace Maze.Models
             PageId = 33,
             Picture = ,
             Text = ". . . the room with no floor. They crowded each other on the narrow ledge, The bold one ventured out to the center. Realizing that they could see all of the signs only from the center of the room, several wanted to turn back. With exaggerated caution, considering their predicament, they finally reached the door they wanted and eventually found themselves in . . .",
-            Doors = ,
+            Doors = 3, 35, 7,
           },
 
           new Page
@@ -282,7 +282,7 @@ namespace Maze.Models
             PageId = 34,
             Picture = ,
             Text = ". . . a middle-class drawing room or parlor. It was amazing how much more comfortable they felt in these surroundings. Everyone sat down, some on the floor, and chatted about where they had been and where they should go. 'Magpies!' I said to myself. 'Not a real thought in their heads.' They were so much at ease they almost missed what the room was telling them altogether. They finally got the message, which I thought was pretty obvious, and we went on to . . .",
-            Doors = ,
+            Doors = 10, 25, 
           },
 
           new Page
@@ -290,7 +290,7 @@ namespace Maze.Models
             PageId = 35,
             Picture = ,
             Text = ". . . what appeared to be someone's basement. One of them sank gratefully down on an old couch which promptly collapsed, I tried to hide my smile. 'A totem, or tribal fetish,' said one, walking around the center of the room. 'It could be a work of art,' suggested another. 'Perhaps it's a signal to us,' the thoughtful one said. 'A warning or direction?' 'Not much help when there is only one way to go,' put in another. 'I still think it’s a signal.' 'Yes,' I said right away, 'I'm sure you’re right.' She was immediately suspicious. Still, with no real choice to make, we left the thing standing alone in light and silence, and went into . . .",
-            Doors = ,
+            Doors = 33,
           },
 
           new Page
@@ -298,7 +298,7 @@ namespace Maze.Models
             PageId = 36,
             Picture = ,
             Text = ". . . an old and ruinous part of the House. Turning a corner the music we had been hearing became louder and at last we saw the musicians themselves. They were so involved they failed to hear us. The music was suited to the scene— a moody, romantic melody. We stopped to listen and I admit that I, too, was affected by the sound as well as by the spectacle of the masked players. One of the visitors noticed me listening. 'Beautiful music, don't you think?' 'It's not bad,' I said stiffly. 'The viol brings the right sense of warmth to the piece, but the guitarist is overplaying his part. Still, he adds a certain plangent brio to an otherwise introspective composition . . .' Unwilling to interrupt the concert we slipped past the musicians into the door to . . .",
-            Doors = ,
+            Doors = 7, 16,
           },
 
           new Page
@@ -306,7 +306,7 @@ namespace Maze.Models
             PageId = 37,
             Picture = ,
             Text = ". . . a long, open room with no roof. 'What is going on here?' they wondered. 'Sometimes, important messages are couched in ambiguous terms,' I said. 'That net may help you catch the answer to your question,' They looked doubtful. 'We must look at this from all sides before we make a decision,' At last, they were learning. They really couldn't decide which way to go; half of them wanted to go one way, half another. They were close to splitting up when there was a rattling sound and one of the doors was shaken from the other side. They all stopped talking and moved doser together. They soon agreed on a direction and we departed for . . .",
-            Doors = ,
+            Doors = 15, 10, 42, 20,
           },
 
           new Page
@@ -314,7 +314,7 @@ namespace Maze.Models
             PageId = 38,
             Picture = ,
             Text = ". . . a narrow space where one wall boasted half-finished carvings and another some sort of carnival poster. There was a little confusion as we made our entrance but we soon sorted ourselves out. It was impossible to climb up the slippery slide and another door wouldn’t open for us, so after emptying the pebbles from our shoes, we marched on to . . .",
-            Doors = ,
+            Doors = 40, 22, 43,
           },
 
           new Page
@@ -322,7 +322,7 @@ namespace Maze.Models
             PageId = 39,
             Picture = ,
             Text = ". . . what looked like a combination wine cellar and junk room. Someone had been working here as well, 'This is more to my taste,' said one, dusting off some labels. All the bottles turned out to be empty. 'I hear someone hammering.' said one, 'No, that’s a chopping sound.' said another. None of them heard the feint jingling that came from behind the wall. 'I don't hear anything,' I said loudly and, with as much commotion as possible, hurried them out of the room to . . .",
-            Doors = ,
+            Doors = 11, 4, 12,
           },
 
           new Page
@@ -330,7 +330,7 @@ namespace Maze.Models
             PageId = 40,
             Picture = ,
             Text = ". . . the foundation of the Maze, Deep underground stones had been carved and fitted; passages opened in the natural rock, 'These symbols are quite unusual' said one. 'They seem to be primitive signs. . .' 'Do you know what signs?' I asked him. 'Oh, you know . . . wind and water, hills and planets.' It was surprising that he could identify any of the symbols, but I was relieved that he couldn’t read them correctly. Choosing more or less at random they went through a passageway to . . .",
-            Doors = ,
+            Doors = 11, 6, 38,
           },
 
           new Page
@@ -338,7 +338,7 @@ namespace Maze.Models
             PageId = 41,
             Picture = ,
             Text = ". . . a room with a special piece of furniture I thought might appeal to my guests. 'How can we trust that thing?' one remarked. 'Who knows where it ends up . . .' I knew, naturally, but that wasn't the point. They were pretty sure of themselves, and went right on to . . .",
-            Doors = ,
+            Doors = 1, 35, 10, 38,
           },
 
           new Page
@@ -346,7 +346,7 @@ namespace Maze.Models
             PageId = 42,
             Picture = ,
             Text = ". . . the next room. In one comer a savage animal appeared ready to leap out, roaring, rending with tusk and claw . . . but it was only a bit of taxidermy after all. I suggested they might wish to hang up their coats before going on. 'How will we find them?' one asked. 'We might not pass through here again.' I assured them I would help them to return. 'You can count on me,' I said sincerely. Still, they wouldn't leave anything behind. Opening one of the doors we made our way to . . .",
-            Doors = ,
+            Doors = 22, 30, 4, 25, 37,
           },
 
           new Page
@@ -354,7 +354,7 @@ namespace Maze.Models
             PageId = 43,
             Picture = ,
             Text = ". . . a great hall, dominated by the entrance to room 22. The face over the door had a sly look. 'Is it good or bad to have only two choices?' they wanted to know. It was, predictably enough, neither 'good' nor 'bad'. These people just didn't know how to phrase a meaningful question. You have to be very particular in this House, We went on to  . . .",
-            Doors = ,
+            Doors = 22, 38,
           },
 
           new Page
@@ -362,7 +362,7 @@ namespace Maze.Models
             PageId = 44,
             Picture = ,
             Text = ". . . a courtyard of palms and statues. The trees waved to each other in the breeze. 'Who left the door open?' they wanted to know. 'We came in that way,' I offered, but they were convinced we had entered by another door entirely. They vanished through the wall and I followed them to . . .",
-            Doors = ,
+            Doors = 21, 18,
           },
 
           new Page
@@ -370,7 +370,7 @@ namespace Maze.Models
             PageId = 45,
             Picture = ,
             Text = ". . . the room at the center of the Maze. My guests thought that whoever lived here was a careless person, to leave so many things around. They were wrong. There was really only one thing for them to find: the Riddle of the Maze. They demanded that I show it to them. 'Do you think it is written on the wall for all to see? It is hidden here, somewhere, perhaps throughout the room. As far as you are concerned, what the Maze teaches can be learned in every room.' They looked and looked . . . every group is the same, 'Now,' I said, after a last look around, 'we must find our way back out.' Leaving the center of the Maze we found ourselves in . . .",
-            Doors = ,
+            Doors = 28, 17, 36, 19, 23,
           }
         );
     }
