@@ -4,3 +4,5 @@
 * 9:30: research on how to complete the maze https://dreamsofgerontius.com/2016/10/17/maze-finding-the-path/
 * 10:00: further research into MAZE and the riddle https://mazecast.com/the-riddle-of-the-maze-the-solution/
 * 11:30: brainstorming- full CRUD not needed for api when its a book with a set number of pages... unsure how to implement door options
+* 12:00: lunch
+* 1:40: research into react w asp.net core https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-5.0&tabs=visual-studio
