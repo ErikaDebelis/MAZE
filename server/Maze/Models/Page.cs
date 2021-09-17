@@ -6,7 +6,7 @@ namespace Maze.Models
     {
         public int PageId { get; set; }
         [Required]
-        public string Picture { get; set; }
+        public byte[] Img { get; set; }
         public string Text { get; set; }
         public int Doors { get; set; }
 
