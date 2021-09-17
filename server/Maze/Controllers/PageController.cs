@@ -35,7 +35,7 @@ namespace Maze.Controllers
       return CreatedAtAction("Post", new { id = page.PageId }, page);
     }
 
-    // GET: api/Ages/5
+    // GET: api/pages/5
     [HttpGet("{id}")]
     public async Task<ActionResult<Page>> GetPage(int id)
     {
