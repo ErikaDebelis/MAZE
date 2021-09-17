@@ -6,3 +6,4 @@
 * 11:30: brainstorming- full CRUD not needed for api when its a book with a set number of pages... unsure how to implement door options
 * 12:00: lunch
 * 1:40: research into react w asp.net core https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-5.0&tabs=visual-studio
+* 2:30: trying to fix verisoning/ build issues with babel-eslint
