@@ -27,13 +27,28 @@ namespace Maze
 
     public void ConfigureServices(IServiceCollection services)
     {
+      services.AddCors(options =>
+      {
+        options.AddPolicy("AllowSpecificOrigin",
+          builder =>
+          {
+            builder.WithOrigins("http://localhost:5000", "https://localhost:5001", "http://localhost:8080");
+            builder.AllowAnyHeader();
+            builder.AllowAnyMethod();
+          });
+      });
 
-      services.AddControllers();
+      services.AddControllersWithViews();
       services.AddDbContext<MazeContext>(opt =>
         opt.UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
       services.AddSwaggerGen(c =>
       {
         c.SwaggerDoc("v1", new OpenApiInfo { Title = "Maze", Version = "v1" });
+      });
+
+      services.AddSpaStaticFiles(configuration =>
+      {
+        configuration.RootPath = "../client/dist";
       });
     }
 
@@ -52,6 +67,16 @@ namespace Maze
       app.UseEndpoints(endpoints =>
       {
         endpoints.MapControllers();
+      });
+
+      app.UseSpaStaticFiles();
+      app.UseSpa(spa =>
+      {
+        spa.Options.SourcePath = "../client";
+        if (env.IsDevelopment())
+        {
+          spa.UseProxyToSpaDevelopmentServer("http://localhost:8080");
+        }
       });
     }
   }
