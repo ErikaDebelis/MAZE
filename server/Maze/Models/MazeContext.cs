@@ -74,7 +74,7 @@ namespace Maze.Models
             PageId = 8,
             // Img = ,
             Text = ". . . a vaulted chamber lit by a single bulb. Someone knocked a bowl off the table. The crash echoed from the ceiling and whispered away down the corridors, I broke another on purpose, 'Make sure to take that with you’ I said, 'You can never tell when you might need it,' 'Take what?' they wanted to know. 'Isn't it obvious?' Taking a vote among themselves they went on to . . .",
-            //Doors = 31, 6, 29, 12, 
+            //Doors = 31, 6, 29, 12,
           },
 
           new Page
@@ -96,10 +96,10 @@ namespace Maze.Models
           new Page
           {
             PageId = 11,
-            Img = "",
+            //Img = "",
             Text = ". . . an airy room with many doors. It was a big space, but I still felt crowded. I’ve always hated confinement, 'Whatever you do,' I warned them, 'don't touch that!' 'This must be an important room,' said one of them. 'It has more doors than any of the others . . .' This was not true but I didn't want to interrupt. 'With so many paths crossing here we must be close to the center,' she continued. I had noticed this guest before; I would have to be careful, 'This is an important choice,' I said, trying to encourage them. Gratefully leaving the room behind we walked all the way to . . .",
             //Doors = 40, 24,
-          }
+          },
 
           new Page
           {
@@ -379,74 +379,3 @@ namespace Maze.Models
 
   }
 }
-
-
-          // new Page
-          // {
-          //   PageId = 1,
-            // Img = ,
-          //   Text = ". . .  . . .",
-          // },
-
-          // new Page
-          // {
-          //   PageId = 2,
-            // Img = ,
-          //   Text = ". . .  . . .",
-          // },
-
-          // new Page
-          // {
-          //   PageId = 3,
-            // Img = ,
-          //   Text = ". . .  . . .",
-          // },
-
-          // new Page
-          // {
-          //   PageId = 4,
-            // Img = ,
-          //   Text = ". . .  . . .",
-          // },
-
-          // new Page
-          // {
-          //   PageId = 5,
-            // Img = ,
-          //   Text = ". . .  . . .",
-          // },
-
-          // new Page
-          // {
-          //   PageId = 6,
-            // Img = ,
-          //   Text = ". . .  . . .",
-          // },
-
-          // new Page
-          // {
-          //   PageId = 7,
-            // Img = ,
-          //   Text = ". . .  . . .",
-          // },
-
-          // new Page
-          // {
-          //   PageId = 8,
-            // Img = ,
-          //   Text = ". . .  . . .",
-          // },
-
-          // new Page
-          // {
-          //   PageId = 9,
-            // Img = ,
-          //   Text = ". . .  . . .",
-          // },
-
-          // new Page
-          // {
-          //   PageId = 0,
-            // Img = ,
-          //   Text = ". . .  . . .",
-          // },
