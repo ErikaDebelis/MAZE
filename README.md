@@ -1,5 +1,5 @@
 ### Research & Planning Log
-#### Friday, 08/13
+#### Friday, 09/17
 * 8:00: watching Redux Tutorial - Learn Redux from Scratch - programming with Mosh tp get a deeper understanding of redux https://www.youtube.com/watch?v=poQXNp9ItL4&t=1237s
 * 9:30: research on how to complete the maze https://dreamsofgerontius.com/2016/10/17/maze-finding-the-path/
 * 10:00: further research into MAZE and the riddle https://mazecast.com/the-riddle-of-the-maze-the-solution/
@@ -12,3 +12,6 @@
 
 
 
+#### Friday, 09/24
+* 8:00: researching button options to change page/door- found html image maps! https://www.allsomedock.com/media/berserk/plugins/image_map/ https://www.w3schools.com/html/html_images_imagemap.asp https://www.youtube.com/watch?v=8YsvA0r3rI0
+* 8:30: begin creating image maps using https://www.image-map.net/
