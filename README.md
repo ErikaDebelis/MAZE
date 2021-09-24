@@ -33,4 +33,4 @@ _will want it curried enough to make this usable for any page within the maze_
 * 11:40: looking into how to utilize html image maps within a react app- initially found a package called react-image-mapper to install but after further research the package is no longer being maintained - will want to look elsewhere
 * 12:15: may not look to implement html image maps as components anymore- instead use 'dangerouslySetInnerHTML' to set HTML directly from react https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml - off to lunch
 * 2:00: researching ePub and react reader https://www.npmjs.com/package/react-reader
-* more research on how to create book app in react https://www.youtube.com/watch?v=7pWdNQS7ork
+* more research on how to create book app in react  https://www.youtube.com/watch?v=7pWdNQS7ork
