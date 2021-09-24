@@ -15,3 +15,14 @@
 #### Friday, 09/24
 * 8:00: researching button options to change page/door- found html image maps! https://www.allsomedock.com/media/berserk/plugins/image_map/ https://www.w3schools.com/html/html_images_imagemap.asp https://www.youtube.com/watch?v=8YsvA0r3rI0
 * 8:30: begin creating image maps using https://www.image-map.net/
+
+
+im thinking about my function needed to change pages:
+1. hide current img
+2. show next img that corresponds with html image map clicked
+3. make api call to database to get text 
+EXTRA- BEYOND MVP
+1.5 . log the room/page you're leaving in a window to see the moves you've made and rooms you've already been to
+4. add animation to text 
+
+will want it curried enough to make this usable for any page within the maze
