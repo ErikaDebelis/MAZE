@@ -17,12 +17,18 @@
 * 8:30: begin creating image maps using https://www.image-map.net/
 
 
-im thinking about my function needed to change pages:
-1. hide current img
-2. show next img that corresponds with html image map clicked
-3. make api call to database to get text 
-EXTRA- BEYOND MVP
-1.5 . log the room/page you're leaving in a window to see the moves you've made and rooms you've already been to
-4. add animation to text 
+* im thinking about my function needed to change pages:
+* 1. hide current img
+* 2. show next img that corresponds with html image map clicked
+* 3. make api call to database to get text 
+######EXTRA- BEYOND MVP
+* 1.5 . log the room/page you're leaving in a window to see the moves you've made and rooms you've already been to
+* 4. add animation to text 
 
-will want it curried enough to make this usable for any page within the maze
+_will want it curried enough to make this usable for any page within the maze_
+
+
+
+
+* 11:40: looking into how to utilize html image maps within a react app- initially found a package called react-image-mapper to install but after further research the package is no longer being maintained - will want to look elsewhere
+
