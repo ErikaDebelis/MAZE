@@ -1070,3 +1070,209 @@
       coords="203,372,265,327,287,453,242,538,237,541"
       shape="poly">
 </map>
+
+
+
+
+
+<img src="33.PNG" usemap="#pg33-image-map">
+<map name="pg33-image-map">
+    <area
+      target=""
+      alt="door 3"
+      title="3"
+      href="3.PNG"
+      onclick = "show('3.PNG')
+      coords="98,169,107,144,112,117,106,113,131,50,150,174,98,179,100,173"
+      shape="poly">
+
+    <area
+      target=""
+      alt="door 35"
+      title="35"
+      href="35.PNG"
+      onclick = "show('35.PNG')
+      coords="458,166,515,63,571,166"
+      shape="poly">
+
+    <area
+      target=""
+      alt="door 7"
+      title="7"
+      href="7.PNG"
+      onclick = "show('7.PNG')
+      coords="642,173,666,53,682,114,676,117,676,134,680,147,687,160,691,168,682,173,681,178"
+      shape="poly">
+</map>
+
+
+
+<img src="34.PNG" usemap="#pg34-image-map">
+<map name="pg34-image-map">
+    <area
+      target=""
+      alt="door 10"
+      title="10"
+      href="10.PNG"
+      onclick = "show('10.PNG')
+      coords="39,11,55,11,73,21,89,24,99,26,103,30,108,56,114,72,121,82,82,77,71,75,56,75,48,62,40,44"
+      shape="poly">
+
+    <area
+      target=""
+      alt="door 25"
+      title="25"
+      href="25.PNG"
+      onclick = "show('25.PNG')
+      coords="225,77,228,71,231,67,229,59,269,47,296,36,305,57,309,77,309,88,234,109"
+      shape="poly">
+</map>
+
+
+
+
+
+<img src="35.PNG" usemap="#pg35-image-map">
+<map name="pg35-image-map">
+    <area
+      target=""
+      alt="door 33"
+      title="33"
+      href="33.PNG"
+      onclick = "show('33.PNG')
+      coords="38,101,186,140"
+      shape="rect">
+</map>
+
+
+
+
+<img src="36.PNG" usemap="#pg36-image-map">
+<map name="pg36-image-map">
+    <area
+      target=""
+      alt="door 7"
+      title="7"
+      href="7.PNG"
+      onclick = "show('7.PNG')
+      coords="52,26,107,40,108,88,50,83"
+      shape="poly">
+
+    <area
+      target=""
+      alt="door 16"
+      title="16"
+      href="16.PNG"
+      onclick = "show('16.PNG')
+      coords="222,60,309,60,310,99,226,100"
+      shape="poly">
+</map>
+
+
+
+
+
+<img src="37.PNG" usemap="#pg37-image-map">
+<map name="pg37-image-map">
+    <area
+      target=""
+      alt="door 15"
+      title="15"
+      href="15.PNG"
+      onclick = "show('15.PNG')
+      coords="40,120,50,106,63,93,84,85,112,83,134,86,149,95,164,112,168,129,170,142,33,142"
+      shape="poly">
+
+    <area
+      target=""
+      alt="door 10"
+      title="10"
+      href="10.PNG"
+      onclick = "show('10.PNG')
+      coords="229,143,242,116,260,98,280,89,301,87,319,89,335,95,348,105,363,121,369,140,344,143"
+      shape="poly">
+
+    <area
+      target=""
+      alt="door 42"
+      title="42"
+      href="42.PNG"
+      onclick = "show('42.PNG')
+      coords="419,143,421,127,429,113,438,101,450,89,464,82,478,78,501,76,518,80,535,89,550,100,558,112,567,129,568,144"
+      shape="poly">
+
+    <area
+      target=""
+      alt="door 20"
+      title="20"
+      href="20.PNG"
+      onclick = "show('20.PNG')
+      coords="623,143,625,120,637,99,663,80,690,74,716,76,742,89,756,102,765,115,770,134,771,146"
+      shape="poly">
+</map>
+
+
+
+
+<img src="38.PNG" usemap="#pg38-image-map">
+<map name="pg38-image-map">
+    <area
+      target=""
+      alt="door 40"
+      title="40"
+      href="40.PNG"
+      onclick = "show('40.PNG')
+      coords="352,104,515,147"
+      shape="rect">
+
+    <area
+      target=""
+      alt="door 22"
+      title="22"
+      href="22.PNG"
+      onclick = "show('22.PNG')
+      coords="584,118,645,101,645,159,584,169"
+      shape="poly">
+
+    <area
+      target=""
+      alt="door 43"
+      title="43"
+      href="43.PNG"
+      onclick = "show('43.PNG')
+      coords="686,89,783,59,785,144,686,153"
+      shape="poly">
+</map>
+
+
+
+
+
+<img src="39.PNG" usemap="#pg39-image-map">
+<map name="pg39-image-map">
+    <area
+      target=""
+      alt="door 11"
+      title="11"
+      href="11.PNG"
+      onclick = "show('11.PNG')
+      coords="43,59,122,65,122,148,44,164"
+      shape="poly">
+
+    <area
+      target=""
+      alt="door 4"
+      title="4"
+      href="4.PNG"
+      coords="192,71,246,76,244,128,193,136"
+      shape="poly">
+
+    <area
+      target=""
+      alt="door 12"
+      title="12"
+      href="12.PNG"
+      onclick = "show('12.PNG')
+      coords="553,69,609,61,609,136,553,130"
+      shape="poly">
+</map>
