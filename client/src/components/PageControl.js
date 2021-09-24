@@ -6,28 +6,52 @@ class PageControl extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      imageVisibleOnPage: false,
-      textVisibleOnPage: false,
-      // do i need these bools if im not exactly toggling per se?
+      error: null,
+      isTextLoaded: false,
+      pageText: "",
+      imageVisibleOnPage: false
+       // do i need these bools if im not exactly toggling per se?
     };
   }
 
+const imageMapPage = `pg{pageId}-image-map`;
+const imageMaps = () => <div dangerouslySetInnerHTML={{ __html: imageMapPage }} />
+
   handleClick = () => {
     this.setState(prevState => ({imageVisibleOnPage: !prevState.imageVisibleOnPage}),prevState => ({textVisibleOnPage: !prevState.textVisibleOnPage}));
+    this.makeApiCall();
   }
 
-  static async getApiData(pageId) {
-    try {
-      const response = await fetch(`https://5000/api/MAZE/${id}`);
-      if (!response.ok) {
-        throw Error(response.result);
-      }
-      return response.json();
-    } catch (error) {
-      return error;
-    }
+
+  makeApiCall = (pageId) => {
+    fetch(`https://5000/api/MAZE/${id}`)
+      .then(response => response.json())
+      .then(
+        (jsonifiedResponse) => {
+          this.setState({
+            isTextLoaded: true,
+            pageText: jsonifiedResponse.result.text
+          });
+        })
+        .catch((error) => {
+          this.setState({
+            isTextLoaded: true,
+            error
+          });
+        });
   }
-}
+//   static async getApiData(pageId) {
+//     try {
+//       const response = await fetch(`https://5000/api/MAZE/${id}`);
+//       if (!response.ok) {
+//         throw Error(response.result);
+//       }
+//       return response.json();
+//     } catch (error) {
+//       return error;
+//     }
+//   }
+// }
 
 
 function handleGettingTextForNewPage(response) {
@@ -47,16 +71,19 @@ function handleGettingTextForNewPage(response) {
     
   }
   render() {
-    let currentlyVisibleState = null;
-    if(this.state.imageVisibleOnPage) {
-      currentlyVisibleState = <Page />
+    const { error, isTextLoaded, pageText } = this.state;
+    if (error) {
+      return <React.Fragment>Error: {error.message}</React.Fragment>;
+    } else if (!isTextLoaded) {
+      return <React.Fragment>Loading...</React.Fragment>;
+    } else {
+      return (
+        <React.Fragment>
+          <h1>Text</h1>
+          <p>{page.text}</p>
+        </React.Fragment>
+      );
     }
-    return (
-      <React.Fragment>
-        {currentlyVisibleState}
-      </React.Fragment>
-    );
   }
-}
 
 //idk taking a shot in the dark
