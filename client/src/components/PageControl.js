@@ -8,16 +8,17 @@ class PageControl extends React.Component {
     this.state = {
       imageVisibleOnPage: false,
       textVisibleOnPage: false,
+      // do i need these bools if im not exactly toggling per se?
     };
   }
 
   handleClick = () => {
-    this.setState(prevState => ({imageVisibleOnPage: !prevState.imageVisibleOnPage}));
+    this.setState(prevState => ({imageVisibleOnPage: !prevState.imageVisibleOnPage}),prevState => ({textVisibleOnPage: !prevState.textVisibleOnPage}));
   }
 
-  static async getApiData(pageId, text) {
+  static async getApiData(pageId) {
     try {
-      const response = await fetch(`https://5000/api/MAZE/{id}`);
+      const response = await fetch(`https://5000/api/MAZE/${id}`);
       if (!response.ok) {
         throw Error(response.result);
       }
@@ -28,11 +29,22 @@ class PageControl extends React.Component {
   }
 }
 
+
+function handleGettingTextForNewPage(response) {
+  if (response["result"] === "success") {
+    const newPageText = this.state(response.text);
+    this.setState({
+      currentPageText: newPageText,
+      textVisibleOnPage: false
+    });
+  }
+
+
   function handleApiCall(event) {
     event.preventDefault();
-    const door = $("#area.title").val(); 
+    const pageId = $("#area.title").val(); 
     // need to figure out how to grab page number from html image maps
-
+    
   }
   render() {
     let currentlyVisibleState = null;
