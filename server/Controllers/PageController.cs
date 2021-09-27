@@ -31,7 +31,6 @@ namespace Maze.Controllers
     {
       _db.Pages.Add(page);
       await _db.SaveChangesAsync();
-
       return CreatedAtAction("Post", new { id = page.PageId }, page);
     }
 
@@ -40,12 +39,10 @@ namespace Maze.Controllers
     public async Task<ActionResult<Page>> GetPage(int id)
     {
       Page page = await _db.Pages.FindAsync(id);
-
       if (page == null)
       {
         return NotFound();
       }
-
       return page;
     }
   }

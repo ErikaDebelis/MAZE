@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -48,7 +49,7 @@ namespace Maze
 
       services.AddSpaStaticFiles(configuration =>
       {
-        configuration.RootPath = "../client/dist";
+        configuration.RootPath = "../client/build";
       });
     }
 
@@ -60,8 +61,15 @@ namespace Maze
         app.UseSwagger();
         app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Maze v1"));
       }
-
+      else
+      {
+          app.UseExceptionHandler("/Error");
+          // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+          app.UseHsts();
+      }
+      
       // app.UseHttpsRedirection();
+      app.UseStaticFiles();
       app.UseRouting();
       app.UseAuthorization();
       app.UseEndpoints(endpoints =>
@@ -75,7 +83,8 @@ namespace Maze
         spa.Options.SourcePath = "../client";
         if (env.IsDevelopment())
         {
-          spa.UseProxyToSpaDevelopmentServer("http://localhost:8080");
+          // spa.UseReactDevelopmentServer(npmScript: "start");
+          spa.UseProxyToSpaDevelopmentServer("http://localhost:3000");
         }
       });
     }

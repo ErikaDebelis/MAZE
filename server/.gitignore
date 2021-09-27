@@ -1,7 +1,0 @@
-bin/
-obj/
-.vscode/
-.env
-.DS_Store
-*/appsettings.json
-WeatherForecast.cs
