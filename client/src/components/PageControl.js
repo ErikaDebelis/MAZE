@@ -10,7 +10,6 @@ class PageControl extends React.Component {
       isTextLoaded: false,
       pageText: "",
       imageVisibleOnPage: false
-       // do i need these bools if im not exactly toggling per se?
     };
   }
 
@@ -23,7 +22,7 @@ const imageMaps = () => <div dangerouslySetInnerHTML={{ __html: imageMapPage }} 
   }
 
 
-  makeApiCall = (pageId) => {
+  makeApiCall = (id) => {
     fetch(`https://5000/api/MAZE/${id}`)
       .then(response => response.json())
       .then(
@@ -66,12 +65,12 @@ function handleGettingTextForNewPage(response) {
 
   function handleApiCall(event) {
     event.preventDefault();
-    const pageId = $("#area.title").val(); 
+    const pageId = $("#area.data-index").val(); 
     // need to figure out how to grab page number from html image maps
     
   }
   render() {
-    const { error, isTextLoaded, pageText } = this.state;
+    const { error, isTextLoaded, page } = this.state;
     if (error) {
       return <React.Fragment>Error: {error.message}</React.Fragment>;
     } else if (!isTextLoaded) {
@@ -87,3 +86,5 @@ function handleGettingTextForNewPage(response) {
   }
 
 //idk taking a shot in the dark
+
+
