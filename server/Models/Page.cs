@@ -15,7 +15,7 @@ namespace Maze.Models
 
 // combo system
 
-// 1. upload image into server-folder on asssets
+// 1. upload image into server-folder on assets
 // 2. database will store link to database Img
 // 3. front end - img source = link
  

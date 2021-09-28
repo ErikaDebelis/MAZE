@@ -21,7 +21,50 @@ namespace Maze.Models
             Img = "../wwwroot/images/1.PNG",
             Text = ". . . the entrance hall of the Maze. They looked carefully at the bronze doors, trying to choose. The uncertainty of visitors is one of my little pleasures. 'It’s easy to get lost,' I said helpfully. 'This can be a sinister place,' The sun glared at me through the gateway. Something was ringing behind one of the doors. They spent some time trying to decide which door it was, not understanding that the silences of the Maze are as eloquent as the sounds. 'Decisions, decisions,' one said. 'Too many decisions.' 'The story of my life,' said another. 'We don’t want to be late,' said a third, opening one of the doors. 'Nary a soul to be seen,' said the first, peering into the gloom. I waited patiently for them to choose which way to go . . . into . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/1.PNG' usemap='#pg1-image-map' >
+                <map name='pg1-image-map'>
+                  <area
+                    target=''
+                    alt='door 20'
+                    data-index=''
+                    data-title='20'
+                    href='/Maze/index/20'
+                    onclick = 'show('20.PNG')'
+                    coords='223,84,299,117'
+                    shape='rect' />
+
+                  <area
+                    target=''
+                    alt='door 26'
+                    data-index=''
+                    data-title='26'
+                    href='/Maze/index/26'
+                    onclick = 'show('26.PNG')'
+                    coords='431,81,510,117'
+                    shape='rect' />
+
+                  <area
+                    target=''
+                    alt='door 41'
+                    data-index=''
+                    data-title='41'
+                    href='/Maze/index/41'
+                    onclick = 'show('41.PNG')'
+                    coords='586,115,649,113,641,71,585,78'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 21'
+                    data-index=''
+                    data-title='21'
+                    href='/Maze/index/21'
+                    onclick = 'show('21.PNG')'
+                    coords='698,61,701,110,772,105,767,55'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -30,7 +73,40 @@ namespace Maze.Models
             Img = "../wwwroot/images/2.PNG",
             Text = ". . . a bright room whose walls were in some disrepair. The floorboards creaked and groaned; the plaster made a gritty sound. They studied the old frescoes for clues but missed the obvious signs. 'Are we on the right path?' they asked. Keeping in mind what a relative term 'right' is, I assured them they were, indeed, on the right path. As for the 'correct' path or the 'most appropriate' path. . . Well, that might be something else. Full of confidence now they marched out to . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/2.PNG' usemap='#pg2-image-map' >
+                <map name='pg2-image-map'>
+                  <area
+                    target=''
+                    alt='door 29'
+                    data-index='29'
+                    data-title='29'
+                    href='/Maze/index/29'
+                    onclick = 'show('29.PNG')'
+                    coords='89,80,91,184,156,184,156,93'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 22'
+                    data-index='22'
+                    data-title='22'
+                    href='/Maze/index/22'
+                    onclick = 'show('22.PNG')'
+                    coords='359,111,358,177,461,178,460,112'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 12'
+                    data-index='12'
+                    data-title='12'
+                    href='/Maze/index/12'
+                    onclick = 'show('12.PNG')'
+                    coords='654,82,668,172,726,173,711,73'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -39,7 +115,30 @@ namespace Maze.Models
             Img = "../wwwroot/images/3.PNG",
             Text = ". . . an entirely different kind of place. The group complained of feeling 'all turned around,' as well they might. Because no one wanted to stay here very long they missed the real sign while looking through the obvious. People in their situation, confronted with a challenge, tend to accept the terms of the challenge as a given, without examining it from all sides. How many sides does that problem have? They don't know. We passed down a long flight of stairs, through some sort of pantry, and on into . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/3.PNG' usemap='#pg3-image-map' >
+                <map name='pg3-image-map'>
+                  <area
+                    target=''
+                    alt='door 9'
+                    data-index='9'
+                    data-title='9'
+                    href='/Maze/index/9'
+                    onclick = 'show('9.PNG')'
+                    coords='446,64,549,117'
+                    shape='rect' />
+
+                  <area
+                    target=''
+                    alt='door 18'
+                    data-index='18'
+                    data-title='18'
+                    href='/Maze/index/18'
+                    onclick = 'show('18.PNG')'
+                    coords='671,45,666,112,750,107,755,25'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -48,7 +147,80 @@ namespace Maze.Models
             Img = "../wwwroot/images/4.PNG",
             Text = ". . . the great hall of many doors.'What a foolish face,' I snorted. 'Pay no attention' A sound made them all turn suddenly. A small black cat ran out of a door to my right, sniffed at us, and, before I could move, ran out of the hall, It was fortunate that I was still standing with the rest of them or they might have noticed. Faint voices came down one of the corridors.'Shall we toss a coin?' I asked. 'Or have you made up your minds?' They hadn't made up their minds, and they had no coins. By a process of elimination they decided to go to . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/4.PNG' usemap='#pg4-image-map' >
+                <map name='pg4-image-map'>
+                  <area
+                    target=''
+                    alt='door 44'
+                    data-index='44'
+                    data-title='44'
+                    href='/Maze/index/44'
+                    onclick = 'show('44.PNG')'
+                    coords='74,41,53,115,163,137,179,82'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 29'
+                    data-index='29'
+                    data-title='29'
+                    href='/Maze/index/29'
+                    onclick = 'show('29.PNG')'
+                    coords='231,100,218,148,264,159,277,118'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 15'
+                    data-index='15'
+                    data-title='15'
+                    href='/Maze/index/15'
+                    onclick = 'show('15.PNG')'
+                    coords='300,125,288,164,312,168,322,136'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 11'
+                    data-index='11'
+                    data-title='11'
+                    href='/Maze/index/11'
+                    onclick = 'show('11.PNG')'
+                    coords='371,148,442,183'
+                    shape='rect' />
+
+                  <area
+                    target=''
+                    alt='door 16'
+                    data-index='16'
+                    data-title='16'
+                    href='/Maze/index/16'
+                    onclick = 'show('16.PNG')'
+                    coords='492,135,502,170,527,164,515,125'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 24'
+                    data-index='24'
+                    data-title='24'
+                    href='/Maze/index/24'
+                    onclick = 'show('24.PNG')'
+                    coords='540,118,553,161,598,153,583,102'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 43'
+                    data-index='43'
+                    data-title='43'
+                    href='/Maze/index/dbcontext43'
+                    onclick = 'show('43.PNG')'
+                    coords='634,81,655,142,766,122,746,42'
+                    shape='poly' />
+                </map>
+              </img>
+              ")
           },
 
           new Page
@@ -57,7 +229,50 @@ namespace Maze.Models
             Img = "../wwwroot/images/5.PNG",
             Text = ". . . the tree room.'Are these real?' they asked, I told them the trees were as real as anything else in the House. As this was an important decision I encouraged them to take their time. After all, the more they think about the possibilities the more choices they have to make, What were their chances of choosing wisely . . . one in four? Two in four perhaps, if I was generous about it. . . and why not be generous? There are one hundred ninety doors in this part of the House, counting the gate . . . enough for everyone. Making a choice, they entered a very long, dark corridor and at last came out into . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/5.PNG' usemap='#pg5-image-map' />
+                <map name='pg5-image-map'>
+                  <area
+                    target=''
+                    alt='door 43'
+                    data-index='43'
+                    data-title='43'
+                    href='/Maze/index/43'
+                    onclick = 'show('43.PNG')'
+                    coords='85,124,63,192,116,186,154,188,157,131,105,126'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 22'
+                    data-index='22'
+                    data-title='22'
+                    href='/Maze/index/22'
+                    onclick = 'show('22.PNG')'
+                    coords='264,122,264,140,258,178,291,172,322,171,344,176,354,146,337,124,302,125'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 30'
+                    data-index='30'
+                    data-title='30'
+                    href='/Maze/index/30'
+                    onclick = 'show('30.PNG')'
+                    coords='551,134,517,134,486,124,475,149,468,178,543,177'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 20'
+                    data-index='20'
+                    data-title='20'
+                    href='/Maze/index/20'
+                    onclick = 'show('20.PNG')'
+                    coords='655,144,643,198,716,196,722,140'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -66,16 +281,62 @@ namespace Maze.Models
             Img = "../wwwroot/images/6.PNG",
             Text = ". . . a gloomy, cavelike place far underground, Even I was oppressed by the weight that hung over our heads. A very small hole, high above, admitted a feeble light. Standing in the light one ofthem put his hand out. 'I think it may be raining out there . . .' They didn't like the look of the place. 'You continue to judge everything by the way it looks!' I cried, exasperated by their timidity. I knew I shouldn't have said anything. If you think of all the deceptions practiced in my family, particularly on my father . . . We went down the only way open to us and came to . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/6.PNG' usemap='#pg6-image-map' />
+                <map name='pg6-image-map'>
+                  <area
+                    target=''
+                    alt='door 40'
+                    data-index='40'
+                    data-title='40'
+                    href='/Maze/index/40'
+                    onclick = 'show('40.PNG')'
+                    coords='147,147,122,206,208,255,237,195'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
           {
             PageId = 7,
             Img = "../wwwroot/images/7.PNG",
-            Text = ". . . a pleasant room with three doors and a lamp. Looking at the picture on the wall they decided it wasn't a very good likeness. One of them almost fell over something on the floor. 'Why don’t they pick up after themselves?' he said, sounding like an old man. 'Weren’t you ever irresponsible?' I asked, thinking of my childhood and how wild I had been.Music was being played somewhere nearby. We stopped to listen for a moment. Leaving the picture looking out at an empty room we went on to . . .",
+            Text = ". . . a pleasant room with three doors and a lamp. Looking at the picture on the wall they decided it wasn't a very good likeness. One of them almost fell over something on the floor. 'Why don’t they pick up after themselves?' he said, sounding like an old man. 'Weren’t you ever irresponsible?' I asked, thinking of my childhood and how wild I had been. Music was being played somewhere nearby. We stopped to listen for a moment. Leaving the picture looking out at an empty room we went on to . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/7.PNG' usemap='#pg7-image-map' />
+                <map name='pg7-image-map'>
+                  <area
+                    target=''
+                    alt='door 33'
+                    data-index='33'
+                    data-title='33'
+                    href='/Maze/index/33'
+                    onclick = 'show('33.PNG')'
+                    coords='96,18,97,80,173,86,175,37'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 36'
+                    data-index='36'
+                    data-title='36'
+                    href='/Maze/index/36'
+                    onclick = 'show('36.PNG')'
+                    coords='350,47,451,89'
+                    shape='rect' />
+
+                  <area
+                    target=''
+                    alt='door 16'
+                    data-index='16'
+                    data-title='16'
+                    href='/Maze/index/16'
+                    onclick = 'show('16.PNG')'
+                    coords='635,34,635,85,707,79,705,20'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -84,7 +345,50 @@ namespace Maze.Models
             Img = "../wwwroot/images/8.PNG",
             Text = ". . . a vaulted chamber lit by a single bulb. Someone knocked a bowl off the table. The crash echoed from the ceiling and whispered away down the corridors, I broke another on purpose, 'Make sure to take that with you’ I said, 'You can never tell when you might need it,' 'Take what?' they wanted to know. 'Isn't it obvious?' Taking a vote among themselves they went on to . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/8.PNG' usemap='#pg8-image-map' />
+                <map name='pg8-image-map'>
+                  <area
+                    target=''
+                    alt='door 31'
+                    data-index='31'
+                    data-title='31'
+                    href='/Maze/index/31'
+                    onclick = 'show('31.PNG')'
+                    coords='12,233,12,295,18,337,136,296,99,220'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 6'
+                    data-index='6'
+                    data-title='6'
+                    href='/Maze/index/6'
+                    onclick = 'show('6.PNG')'
+                    coords='200,209,198,236,198,257,211,259,215,268,254,256,231,206'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 29'
+                    data-index='29'
+                    data-title='29'
+                    href='/Maze/index/29'
+                    onclick = 'show('29.PNG')'
+                    coords='314,177,339,225,423,189,398,136'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 12'
+                    data-index='12'
+                    data-title='12'
+                    href='/Maze/index/12'
+                    onclick = 'show('12.PNG')'
+                    coords='472,94,495,145,532,121,529,115,534,108,519,95,494,76'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -93,7 +397,30 @@ namespace Maze.Models
             Img = "../wwwroot/images/9.PNG",
             Text = ". . . what appeared to be an old storeroom. Dust obscured a damaged painting making it hard to understand just what the artist had intended. 'This could be a trick of some sort,' one said. 'We might be going around in circles.' 'I don’t think so,' said the thoughtful one. 'I think we’re supposed to think it’s a trick . . . that’s the trick. They all looked at me. 'Yes,' I said, 'I’m sure you're right about that.' With doubtful looks they left for . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/9.PNG' usemap='#pg9-image-map' />
+                <map name='pg9-image-map'>
+                  <area
+                    target=''
+                    alt='door 3'
+                    data-index='3'
+                    data-title='3'
+                    href='/Maze/index/3'
+                    onclick = 'show('3.PNG')'
+                    coords='85,140,84,174,66,169,64,209,164,229,164,200,148,196,150,166,121,155'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 18'
+                    data-index='18'
+                    data-title='18'
+                    href='/Maze/index/18'
+                    onclick = 'show('18.PNG')'
+                    coords='530,162,530,185,502,186,503,208,656,210,656,187,630,186,628,163'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -102,7 +429,40 @@ namespace Maze.Models
             Img = "../wwwroot/images/10.PNG",
             Text = ". . . a room that smelled of paint, Faint voices, apparently in an argument, came from behind the locked door. 'You know,' said one, 'that sounds like us in there . . . ' They tried the door but, naturally, it wouldn't open. The voices stopped when the doorknob rattled. One picked up the umbrella. 'It may rain where we’re going.' I signaled my approval and, after a short rest, we came to . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/10.PNG' usemap='#pg10-image-map' />
+                <map name='pg10-image-map'>
+                  <area
+                    target=''
+                    alt='door 34'
+                    data-index='34'
+                    data-title='34'
+                    href='/Maze/index/34'
+                    onclick = 'show('34.PNG')'
+                    coords='46,60,56,125,139,125,133,59'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 41'
+                    data-index='41'
+                    data-title='41'
+                    href='/Maze/index/41'
+                    onclick = 'show('41.PNG')'
+                    coords='427,63,482,58,500,130,443,127'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 14'
+                    data-index='14'
+                    data-title='14'
+                    href='/Maze/index/14'
+                    onclick = 'show('14.PNG')'
+                    coords='594,51,674,44,692,143,612,138'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -111,7 +471,30 @@ namespace Maze.Models
             Img = "../wwwroot/images/11.PNG",
             Text = ". . . an airy room with many doors. It was a big space, but I still felt crowded. I’ve always hated confinement, 'Whatever you do,' I warned them, 'don't touch that!' 'This must be an important room,' said one of them. 'It has more doors than any of the others . . .' This was not true but I didn't want to interrupt. 'With so many paths crossing here we must be close to the center,' she continued. I had noticed this guest before; I would have to be careful, 'This is an important choice,' I said, trying to encourage them. Gratefully leaving the room behind we walked all the way to . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/11.PNG' usemap='#pg11-image-map' />
+                <map name='pg11-image-map'>
+                  <area
+                    target=''
+                    alt='door 40'
+                    data-index='40'
+                    data-title='40'
+                    href='/Maze/index/40'
+                    onclick = 'show('40.PNG')'
+                    coords='115,214,208,417'
+                    shape='rect' />
+
+                  <area
+                    target=''
+                    alt='door 24'
+                    data-index='24'
+                    data-title='24'
+                    href='/Maze/index/24'
+                    onclick = 'show('24.PNG')'
+                    coords='594,214,685,417'
+                    shape='rect' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -120,7 +503,50 @@ namespace Maze.Models
             Img = "../wwwroot/images/12.PNG",
             Text = ". . . a spacious room with a hole in the floor, A ladder led downinto the shadows. Outside, leaves shook in the wind, Theydidn't like the look of that hole in the floor.'Too dark down there!' they cried, “Who knows what's at the bottom. 'They looked at me again. Probably a room of some kind,' I volunteered quickly. 'But you know what l say about appearances.' It would have been a relief to get outside for a while. They wanted to know if they had been here before. . . . How could I answer that? 'I have the strangest feeling of deja vu,' said one who, bolder than the rest, led us into . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/12.PNG' usemap='#pg12-image-map' />
+                <map name='pg12-image-map'>
+                  <area
+                    target=''
+                    alt='door 2'
+                    data-index='2'
+                    data-title='2'
+                    href='/Maze/index/2'
+                    onclick = 'show('2.PNG')'
+                    coords='150,31,146,47,135,56,130,123,185,124,192,61,185,50,185,40'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 21'
+                    data-index='21'
+                    data-title='21'
+                    href='/Maze/index/21'
+                    onclick = 'show('21.PNG')'
+                    coords='366,66,373,61,376,53,421,54,427,62,438,69,438,124,365,125'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 8'
+                    data-index='8'
+                    data-title='8'
+                    href='/Maze/index/8'
+                    onclick = 'show('8.PNG')'
+                    coords='630,42,663,36,667,46,675,53,681,124,629,125,624,62,630,56'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 39'
+                    data-index='39'
+                    data-title='39'
+                    href='/Maze/index/39'
+                    onclick = 'show('39.PNG')'
+                    coords='286,431,352,408,376,430,362,461,316,471,303,481'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -129,7 +555,40 @@ namespace Maze.Models
             Img = "../wwwroot/images/13.PNG",
             Text = ". . . room number 13,They weren’t really comfortable here and I knew why, 'No, no,' they said. 'We're not all superstitious.' 'Only some of you, then?' They were worried it might be Friday. Well, it's true that it was closer to the end of the week than they realized. It takes a great deal of experience, certainly more than they possessed, to understand how time works in the Maze. The dock thought it was six in the evening, Quickly moving on we came to . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/13.PNG' usemap='#pg13-image-map' />
+                <map name='pg13-image-map'>
+                  <area
+                    target=''
+                    alt='door 27'
+                    data-index='27'
+                    data-title='27'
+                    href='/Maze/index/27'
+                    onclick = 'show('27.PNG')'
+                    coords='39,9,72,9,131,31,130,93,39,67'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 18'
+                    data-index='18'
+                    data-title='18'
+                    href='/Maze/index/18'
+                    onclick = 'show('18.PNG')'
+                    coords='338,70,465,124'
+                    shape='rect' />
+
+                  <area
+                    target=''
+                    alt='door 25'
+                    data-index='25'
+                    data-title='25'
+                    href='/Maze/index/25'
+                    onclick = 'show('25.PNG')'
+                    coords='672,34,732,8,762,9,759,67,672,98'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -138,7 +597,40 @@ namespace Maze.Models
             Img = "../wwwroot/images/14.PNG",
             Text = ". . . one of the biggest rooms in the House, All three doorways were dark. 'Afraid to go out?' I asked. Since they tried to think of themselves as adults, they didn't care for my question. 'Not really,' said the thoughtful one, 'but that doesn't mean we have to go running around out there just to prove something to you.' I knew she would bear watching.'Choose then!' I cried, as if my feelings were hurt. 'Pay no attention to anything I say.' I knew they couldn't afford not to listen to me entirely . . . they were so easily led Turning around, the group took a path that completely surprised me after all, and I followed them to . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/14.PNG' usemap='#pg14-image-map' />
+                <map name='pg14-image-map'>
+                  <area
+                    target=''
+                    alt='door 10'
+                    data-index='10'
+                    data-title='10'
+                    href='/Maze/index/10'
+                    onclick = 'show('10.PNG')'
+                    coords='36,272,50,264,63,262,75,254,113,236,122,238,147,298,102,316,63,331'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 43'
+                    data-index='43'
+                    data-title='43'
+                    href='/Maze/index/43'
+                    onclick = 'show('43.PNG')'
+                    coords='363,208,383,212,424,217,459,214,458,234,462,253,473,274,417,272,353,269,354,238'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 24'
+                    data-index='24'
+                    data-title='24'
+                    href='/Maze/index/24'
+                    onclick = 'show('24.PNG')'
+                    coords='644,212,729,230,703,299,614,276'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -146,8 +638,41 @@ namespace Maze.Models
             PageId = 15,
             Img = "../wwwroot/images/15.PNG",
             Text = ". . . room number 15. Just as we entered l heard a thump and the sound of footsteps hurrying away. Somewhere a door slammed. 'At least three of us can sit down here' said one. There were only three possible choices. Leaning on the sacrificial tripod I was suddenly moved to say, 'Perhaps these numbers relate to each other in some specific combination . . ' Immediately I regretted this act of charity . . . sometimes I think, after all these years, that I don’t really know myself. One of them thought he had worked it out and, very pleased with himself, led us into . . . ",
-          Doors = string.Format(@"
-")
+            Doors = string.Format(@"
+              <img src='../wwwroot/images/15.PNG' usemap='#pg15-image-map' />
+                <map name='pg15-image-map'>
+                  <area
+                    target=''
+                    alt='door 30'
+                    data-index='30'
+                    data-title='30'
+                    href='/Maze/index/30'
+                    onclick = 'show('30.PNG')'
+                    coords='223,129,339,171'
+                    shape='rect' />
+
+                  <area
+                    target=''
+                    alt='door 37'
+                    data-index='37'
+                    data-title='37'
+                    href='/Maze/index/37'
+                    onclick = 'show('37.PNG')'
+                    coords='456,127,572,171'
+                    shape='rect' />
+
+                  <area
+                    target=''
+                    alt='door 3'
+                    data-index='3'
+                    data-title='3'
+                    href='/Maze/index/3'
+                    onclick = 'show('3.PNG')'
+                    coords='654,117,721,103,721,165,654,169'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -156,7 +681,30 @@ namespace Maze.Models
             Img = "../wwwroot/images/16.PNG",
             Text = ". . . a stone chamber which reminded me of my old neighbors. Of course, that was a long time ago now, but would you believe their descendants are still telling stories about me and my family to their children? Even if most of the stories are lies and exaggerations, it is immortality of a sort. As I passed in front of an open doorway a figure, crossing the hall outside, saw me and immediately ran off. 'Who was that?' they asked. 'Another visitor, to be sure.' 'Why did he run away?' 'You probably scared him.' I said, and they apparently believed me. With few regrets on my part we left for . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/16.PNG' usemap='#pg16-image-map' />
+                <map name='pg16-image-map'>
+                  <area
+                    target=''
+                    alt='door 36'
+                    data-index='36'
+                    data-title='36'
+                    href='/Maze/index/36'
+                    onclick = 'show('36.PNG')'
+                    coords='60,17,118,45,115,85,108,90,58,70'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 7'
+                    data-index='7'
+                    data-title='7'
+                    href='/Maze/index/7'
+                    onclick = 'show('7.PNG')'
+                    coords='669,39,726,17,728,74,670,90'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -165,7 +713,40 @@ namespace Maze.Models
             Img = "../wwwroot/images/17.PNG",
             Text = ". . .  a room with a floor of sand. 'Amphorae’ I pronounced; empty, of course, 'This is an easier choice to make' they said. “You may think so' I muttered to myself, 'but your choices are more limited than you know.' One should never accept the obvious here. If you think of the Maze as a machine, confusion is its product, and the machine was hard at work. Ignoring my good advice they hurried into . . . ",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/17.PNG' usemap='#pg17-image-map' />
+                <map name='pg17-image-map'>
+                  <area
+                    target=''
+                    alt='door 6'
+                    data-index='6'
+                    data-title='6'
+                    href='/Maze/index/6'
+                    onclick = 'show('6.PNG')'
+                    coords='34,315,63,300,90,301,104,306,91,355,61,361,51,336,44,321'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 45'
+                    data-index='45'
+                    data-title='45'
+                    href='/Maze/index/45'
+                    onclick = 'show('45.PNG')'
+                    coords='366,28,371,24,427,23,428,28,423,34,434,41,434,57,427,77,416,91,399,104,377,93,367,79,361,61,360,44,373,35,371,31'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 33'
+                    data-index='33'
+                    data-title='33'
+                    href='/Maze/index/33'
+                    onclick = 'show('33.PNG')'
+                    coords='649,90,740,67,743,142,649,150'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -174,7 +755,30 @@ namespace Maze.Models
             Img = "../wwwroot/images/18.PNG",
             Text = ". . . a much warmer room. Shadows danced across the floor to the fire's music, 'Someone's lost his hat.' 'Are you sure it's the hat that is lost?' I asked reasonably enough. No one would answer me. Ducking behind a curtain and hurrying down a passageway we came out in . . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/18.PNG' usemap='#pg18-image-map' />
+                <map name='pg18-image-map'>
+                  <area
+                    target=''
+                    alt='door 13'
+                    data-index='13'
+                    data-title='13'
+                    href='/Maze/index/13'
+                    onclick = 'show('13.PNG')'
+                    coords='363,95,452,93,458,108,458,145,367,144'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 3'
+                    data-index='3'
+                    data-title='3'
+                    href='/Maze/index/3'
+                    onclick = 'show('3.PNG')'
+                    coords='667,92,753,142'
+                    shape='rect' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
@@ -183,7 +787,30 @@ namespace Maze.Models
             Img = "../wwwroot/images/19.PNG",
             Text = ". . . a shaded portico. A late afternoon sun warmed the rough blocks of stone. 'Get out of the way!' someone called. We moved into the yard, squinting at the strong light. One of them sat on a marble bench after I politely pushed some flowers aside. 'Did you pick these for me?' she asked, looking me in the eye. I had to tell her the truth, In another part of the grounds someone was singing but they couldn't make out the words. Like children they soon became restless and impatient to see something new, so we went on to  . . .",
             Doors = string.Format(@"
-")
+              <img src='../wwwroot/images/19.PNG' usemap='#pg19-image-map' />
+                <map name='pg19-image-map'>
+                  <area
+                    target=''
+                    alt='door 31'
+                    data-index='31'
+                    data-title='31'
+                    href='/Maze/index/31'
+                    onclick = 'show('31.PNG')'
+                    coords='179,10,187,10,283,38,284,117,177,97'
+                    shape='poly' />
+
+                  <area
+                    target=''
+                    alt='door 11'
+                    data-index='11'
+                    data-title='11'
+                    href='/Maze/index/11'
+                    onclick = 'show('11.PNG')'
+                    coords='333,54,394,71,393,135,333,125'
+                    shape='poly' />
+                </map>
+              </img>
+            ")
           },
 
           new Page
