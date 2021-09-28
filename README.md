@@ -16,14 +16,16 @@
 * 8:00: researching button options to change page/door- found html image maps! https://www.allsomedock.com/media/berserk/plugins/image_map/ https://www.w3schools.com/html/html_images_imagemap.asp https://www.youtube.com/watch?v=8YsvA0r3rI0
 * 8:30: begin creating image maps using https://www.image-map.net/
 
-
+(updated steps for function 09/27)
 * im thinking about my function needed to change pages:
 * 1. hide current img
-* 2. show next img that corresponds with html image map clicked
-* 3. make api call to database to get text 
+* 2. make api call to database to get text, img relative route, and doors (aka html image maps saved as a string)
+* 3. use img path string to show img in view (the image that corresponds with html image map clicked on previous page) 
+* 4. use the doors htmlimagemap string and then translate it back to html and then use the dangerouslSetInnerHtml() so i can use it in react
+* 5. use text grabbed from api call and display on the page
 ######EXTRA- BEYOND MVP
-* 1.5 . log the room/page you're leaving in a window to see the moves you've made and rooms you've already been to
-* 4. add animation to text 
+* log the room/page you're leaving in a window to see the moves you've made and rooms you've already been to
+* add animation to text 
 
 _will want it curried enough to make this usable for any page within the maze_
 
