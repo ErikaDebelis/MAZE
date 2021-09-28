@@ -42,10 +42,6 @@ namespace Maze
       services.AddControllersWithViews();
       services.AddDbContext<MazeContext>(opt =>
         opt.UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
-      services.AddSwaggerGen(c =>
-      {
-        c.SwaggerDoc("v1", new OpenApiInfo { Title = "Maze", Version = "v1" });
-      });
 
       services.AddSpaStaticFiles(configuration =>
       {
@@ -58,8 +54,6 @@ namespace Maze
       if (env.IsDevelopment())
       {
         app.UseDeveloperExceptionPage();
-        app.UseSwagger();
-        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Maze v1"));
       }
       else
       {
