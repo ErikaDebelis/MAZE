@@ -33,7 +33,7 @@ namespace Maze
         options.AddPolicy("AllowSpecificOrigin",
           builder =>
           {
-            builder.WithOrigins("http://localhost:5000", "https://localhost:5001", "http://localhost:8080");
+            builder.WithOrigins("http://localhost:5000", "https://localhost:5001", "http://localhost:3000");
             builder.AllowAnyHeader();
             builder.AllowAnyMethod();
           });
@@ -64,11 +64,13 @@ namespace Maze
       
       // app.UseHttpsRedirection();
       app.UseStaticFiles();
+      app.UseCors("AllowSpecificOrigin");
       app.UseRouting();
-      app.UseAuthorization();
       app.UseEndpoints(endpoints =>
       {
-        endpoints.MapControllers();
+        endpoints.MapControllerRoute(
+          name: "default",
+          pattern: "{controller}/{action=Index}/{id?}");
       });
 
       app.UseSpaStaticFiles();
