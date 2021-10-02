@@ -1,7 +1,6 @@
-import React from 'react';
-// import Page from './Page';
+import React, { Component } from 'react';
 
-class PageControl extends React.Component {
+export class PageControl extends Component {
 
   constructor(props) {
     super(props);
@@ -12,10 +11,10 @@ class PageControl extends React.Component {
     };
   }
 
-  async componentDidMount(id) {
-    const response = await fetch(`http://localhost:5000/api/pages/${id}`);
+  async componentDidMount() {
+    const response = await fetch(`http://localhost:5000/api/pages/5`);
     const data = await response.json();
-    this.setState({page: data[pageId]});
+    this.setState({page: data, loading: false });
   }
 
   render() {
@@ -33,15 +32,7 @@ class PageControl extends React.Component {
       </div>
     );
   }
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -103,5 +94,3 @@ class PageControl extends React.Component {
 //     event.preventDefault();
 //     const pageId = $("#area.data-index").val();
 //     // need to figure out how to grab page number from html image maps
-
-//   }
