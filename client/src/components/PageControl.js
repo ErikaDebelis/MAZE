@@ -23,7 +23,7 @@ const imageMaps = () => <div dangerouslySetInnerHTML={{ __html: imageMapPage }} 
 
 
   makeApiCall = (id) => {
-    fetch(`https://5000/api/MAZE/${id}`)
+    fetch(`https://5000/api/pages/${id}`)
       .then(response => response.json())
       .then(
         (jsonifiedResponse) => {
