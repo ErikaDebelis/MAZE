@@ -7,7 +7,6 @@ namespace Maze.Models
         public int PageId { get; set; }
         public string Img { get; set; }
         public string Text { get; set; }
-        [AllowHtml]
         public string Doors { get; set; }
 
     }
