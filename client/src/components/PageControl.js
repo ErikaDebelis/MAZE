@@ -12,9 +12,9 @@ export class PageControl extends Component {
   }
 
   async componentDidMount() {
-    const response = await fetch(`http://localhost:5000/api/pages/5`);
+    const response = await fetch(`http://localhost:5000/api/pages/`);
     const data = await response.json();
-    this.setState({page: data, loading: false });
+    this.setState({page: data[5], loading: false });
   }
 
   render() {
@@ -24,7 +24,9 @@ export class PageControl extends Component {
           <div> loading...</div>
         ) : (
           <div>
-            <img src={this.state.page.img} />
+            <img src={this.state.page.img} alt= {this.state.page.pageId} />
+            {/* "../wwwroot/images/6.PNG" */}
+
             <div>{this.state.page.doors}</div>
             <div>{this.state.page.text}</div>
           </div>
