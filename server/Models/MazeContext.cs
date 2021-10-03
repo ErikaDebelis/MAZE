@@ -214,7 +214,7 @@ namespace Maze.Models
                     alt='door 43'
                     data-index='43'
                     data-title='43'
-                    href='/Maze/index/dbcontext43'
+                    href='/Maze/index/43'
                     onclick = 'show('43.PNG')'
                     coords='634,81,655,142,766,122,746,42'
                     shape='poly' />
@@ -279,7 +279,7 @@ namespace Maze.Models
           {
             PageId = 6,
             Img = "../wwwroot/images/6.PNG",
-            Text = ". . . a gloomy, cavelike place far underground, Even I was oppressed by the weight that hung over our heads. A very small hole, high above, admitted a feeble light. Standing in the light one ofthem put his hand out. 'I think it may be raining out there . . .' They didn't like the look of the place. 'You continue to judge everything by the way it looks!' I cried, exasperated by their timidity. I knew I shouldn't have said anything. If you think of all the deceptions practiced in my family, particularly on my father . . . We went down the only way open to us and came to . . .",
+            Text = ". . . a gloomy, cavelike place far underground, Even I was oppressed by the weight that hung over our heads. A very small hole, high above, admitted a feeble light. Standing in the light one of them put his hand out. 'I think it may be raining out there . . .' They didn't like the look of the place. 'You continue to judge everything by the way it looks!' I cried, exasperated by their timidity. I knew I shouldn't have said anything. If you think of all the deceptions practiced in my family, particularly on my father . . . We went down the only way open to us and came to . . .",
             Doors = string.Format(@"
               <img src='../wwwroot/images/6.PNG' usemap='#pg6-image-map' />
                 <map name='pg6-image-map'>

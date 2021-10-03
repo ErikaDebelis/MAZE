@@ -79,8 +79,8 @@ namespace Maze
         spa.Options.SourcePath = "../client";
         if (env.IsDevelopment())
         {
-          // spa.UseReactDevelopmentServer(npmScript: "start");
-          spa.UseProxyToSpaDevelopmentServer("http://localhost:3000");
+          spa.UseReactDevelopmentServer(npmScript: "start");
+          // spa.UseProxyToSpaDevelopmentServer("http://localhost:3000");
         }
       });
     }
