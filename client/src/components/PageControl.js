@@ -13,8 +13,9 @@ export class PageControl extends Component {
     };
   }
 
-  // handleClick = () => {
-  //   this.setState(prevState => ({isPageLoaded: !prevState.isPageLoaded}));
+  // handleClick = (event) => {
+  //   event.preventDefault();
+  //   this.componentDidMount(uiPageId);
   // }
 
   // handleChangingSelectedDoor = (id) => {
