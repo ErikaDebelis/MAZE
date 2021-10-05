@@ -11,6 +11,10 @@ export class PageControl extends Component {
     };
   }
 
+  handleClick = () => {
+    this.setState(prevState => ({isPageLoaded: !prevState.isPageLoaded}));
+  }
+  
   async componentDidMount(id) {
     const response = await fetch(`http://localhost:5000/api/pages/${id}`);
     const data = await response.json();
