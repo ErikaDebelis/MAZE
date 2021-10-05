@@ -11,23 +11,28 @@ export class PageControl extends Component {
     };
   }
 
-  async componentDidMount() {
-    const response = await fetch(`http://localhost:5000/api/pages/`);
+  async componentDidMount(id) {
+    const response = await fetch(`http://localhost:5000/api/pages/${id}`);
     const data = await response.json();
-    this.setState({page: data[5], loading: false });
+    this.setState({page: data[id], loading: false });
   }
 
-  render() {
-    return (
-      <div>
+  translateImageMaps = () => {
+    const imageMaps = this.state.page.doors;
+    return{__html: imageMaps};
+  }
+
+    render() {
+      return (
+        <div>
         {this.state.loading || !this.state.page ? (
           <div> loading...</div>
-        ) : (
+          ) : (
           <div>
             <img src={this.state.page.img} alt= {this.state.page.pageId} />
             {/* "../wwwroot/images/6.PNG" */}
 
-            <div>{this.state.page.doors}</div>
+            <div dangerouslySetInnerHTML={this.translateImageMaps()} />
             <div>{this.state.page.text}</div>
           </div>
         )}

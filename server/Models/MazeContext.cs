@@ -18,7 +18,7 @@ namespace Maze.Models
           new Page
           {
             PageId = 1,
-            Img = "../wwwroot/images/1.PNG",
+            Img = "/images/1.PNG",
             Text = ". . . the entrance hall of the Maze. They looked carefully at the bronze doors, trying to choose. The uncertainty of visitors is one of my little pleasures. 'It’s easy to get lost,' I said helpfully. 'This can be a sinister place,' The sun glared at me through the gateway. Something was ringing behind one of the doors. They spent some time trying to decide which door it was, not understanding that the silences of the Maze are as eloquent as the sounds. 'Decisions, decisions,' one said. 'Too many decisions.' 'The story of my life,' said another. 'We don’t want to be late,' said a third, opening one of the doors. 'Nary a soul to be seen,' said the first, peering into the gloom. I waited patiently for them to choose which way to go . . . into . . .",
             Doors = string.Format(@"
               <img src='../wwwroot/images/1.PNG' usemap='#pg1-image-map' >
