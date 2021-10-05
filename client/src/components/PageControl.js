@@ -30,7 +30,7 @@ export class PageControl extends Component {
           ) : (
           <div>
             <img src={this.state.page.img} alt= {this.state.page.pageId} />
-            {/* "../wwwroot/images/6.PNG" */}
+            {/* "/images/6.PNG" */}
 
             <div dangerouslySetInnerHTML={this.translateImageMaps()} />
             <div>{this.state.page.text}</div>
