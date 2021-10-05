@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withRouter } from "react-router";
 
 export class PageControl extends Component {
 
@@ -23,39 +24,32 @@ export class PageControl extends Component {
   //   });
   // }
 
-  // async componentDidMount() {
-  //   const response = await fetch(`http://localhost:5000/api/pages/5`);
-  //   const data = await response.json();
-  //   this.setState({page: data[5], loading: false });
-  // }
-
-  
-  // async getDefaultPageAsync() {
-    //   const response = await fetch(`http://localhost:5000/api/pages/1`);
-    //   return await response.json();
-    // }
-    
-    
-    translateImageMaps = () => {
-      const imageMaps = this.state.page.doors;
-      return{__html: imageMaps};
-    }
-
-
-  async componentDidMount() {
-    const response = await fetch(`http://localhost:5000/api/pages/${this.state.pageId}`);
-    const data = await response.json();
-    this.setState({page: data, isPageLoaded: true });
+  translateImageMaps = () => {
+    const imageMaps = this.state.page.doors;
+    return{__html: imageMaps};
   }
-
+  
+  
+  async componentDidMount(uiPageId) {
+    if (uiPageId) {
+    const response = await fetch(`http://localhost:5000/api/pages/${uiPageId}`);
+    this.setState({pageId: uiPageId, isPageLoaded: true });
+    } else {
+      const response = await fetch(`http://localhost:5000/api/pages/${this.state.pageId}`);
+      const data = await response.json();
+      this.setState({page: data, isPageLoaded: true });
+    }
+    
+  }
+  
   render() {
     console.log(this.state.page)
     return (
       <div>
         {!this.state.isPageLoaded || !this.state.page ? (
           <div> loading...</div>
-        ) : (
-          <div>
+          ) : (
+            <div>
             <div dangerouslySetInnerHTML={this.translateImageMaps()} />
             <div>{this.state.page.text}</div>
           </div>
@@ -64,6 +58,19 @@ export class PageControl extends Component {
     );
   }
 }
+
+// async componentDidMount() {
+//   const response = await fetch(`http://localhost:5000/api/pages/5`);
+//   const data = await response.json();
+//   this.setState({page: data[5], loading: false });
+// }
+
+
+// async getDefaultPageAsync() {
+  //   const response = await fetch(`http://localhost:5000/api/pages/1`);
+  //   return await response.json();
+  // }
+  
   
 //     render() {
 //       var page = this.getDefaultPageAsync()

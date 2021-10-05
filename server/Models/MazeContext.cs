@@ -28,8 +28,8 @@ namespace Maze.Models
                     alt='door 20'
                     data-index=''
                     data-title='20'
-                    href='/Maze/index/20'
-                    onclick = 'show('20.PNG')'
+                    href='/pageControl'
+                    onclick = 'componentDidMount(20)'
                     coords='223,84,299,117'
                     shape='rect' />
 
@@ -38,8 +38,8 @@ namespace Maze.Models
                     alt='door 26'
                     data-index=''
                     data-title='26'
-                    href='/Maze/index/26'
-                    onclick = 'show('26.PNG')'
+                    href='/pageControl'
+                    onclick = 'componentDidMount(26)'
                     coords='431,81,510,117'
                     shape='rect' />
 
@@ -48,8 +48,8 @@ namespace Maze.Models
                     alt='door 41'
                     data-index=''
                     data-title='41'
-                    href='/Maze/index/41'
-                    onclick = 'show('41.PNG')'
+                    href='/pageControl'
+                    onclick = 'componentDidMount(41)'
                     coords='586,115,649,113,641,71,585,78'
                     shape='poly' />
 
@@ -58,8 +58,8 @@ namespace Maze.Models
                     alt='door 21'
                     data-index=''
                     data-title='21'
-                    href='/Maze/index/21'
-                    onclick = 'show('21.PNG')'
+                    href='/pageControl'
+                    onclick = 'componentDidMount(21)'
                     coords='698,61,701,110,772,105,767,55'
                     shape='poly' />
                 </map>
