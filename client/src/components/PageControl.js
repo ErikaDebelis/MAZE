@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withRouter } from "react-router";
 
 export class PageControl extends Component {
 
@@ -7,27 +8,50 @@ export class PageControl extends Component {
     this.state = {
       error: null,
       isPageLoaded: false,
-      page: null
+      page: null,
+      pageId: 1
     };
   }
 
-  async componentDidMount() {
-    const response = await fetch(`http://localhost:5000/api/pages/`);
-    const data = await response.json();
-    this.setState({page: data[5], loading: false });
-  }
+  // handleClick = (event) => {
+  //   event.preventDefault();
+  //   this.componentDidMount(uiPageId);
+  // }
 
+  // handleChangingSelectedDoor = (id) => {
+  //   const selectedDoor = imageMaps.filter(page => page.pageId === id)[0];
+  //   this.setState({
+  //     selectedDoor: selectedDoor
+  //   });
+  // }
+
+  translateImageMaps = () => {
+    const imageMaps = this.state.page.doors;
+    return{__html: imageMaps};
+  }
+  
+  
+  async componentDidMount(uiPageId) {
+    if (uiPageId) {
+    const response = await fetch(`http://localhost:5000/api/pages/${uiPageId}`);
+    this.setState({pageId: uiPageId, isPageLoaded: true });
+    } else {
+      const response = await fetch(`http://localhost:5000/api/pages/${this.state.pageId}`);
+      const data = await response.json();
+      this.setState({page: data, isPageLoaded: true });
+    }
+    
+  }
+  
   render() {
+    console.log(this.state.page)
     return (
       <div>
-        {this.state.loading || !this.state.page ? (
+        {!this.state.isPageLoaded || !this.state.page ? (
           <div> loading...</div>
-        ) : (
-          <div>
-            <img src={this.state.page.img} alt= {this.state.page.pageId} />
-            {/* "../wwwroot/images/6.PNG" */}
-
-            <div>{this.state.page.doors}</div>
+          ) : (
+            <div>
+            <div dangerouslySetInnerHTML={this.translateImageMaps()} />
             <div>{this.state.page.text}</div>
           </div>
         )}
@@ -36,14 +60,51 @@ export class PageControl extends Component {
   }
 }
 
+// async componentDidMount() {
+//   const response = await fetch(`http://localhost:5000/api/pages/5`);
+//   const data = await response.json();
+//   this.setState({page: data[5], loading: false });
+// }
+
+
+// async getDefaultPageAsync() {
+  //   const response = await fetch(`http://localhost:5000/api/pages/1`);
+  //   return await response.json();
+  // }
+  
+  
+//     render() {
+//       var page = this.getDefaultPageAsync()
+//       var displayHtml = page.Doors;
+//       var text = page.Text;
+
+//       return (
+//         <div>
+//             <div>{text}</div>
+//       </div>
+//     );
+//   }
+// }
 
 
 
 
 
 
-  // const imageMapPage = `pg{pageId}-image-map`;
-  // const imageMaps = () => <div dangerouslySetInnerHTML={{ __html: imageMapPage }} />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   //   handleClick = () => {
     //     this.setState(prevState => ({imageVisibleOnPage: !prevState.imageVisibleOnPage}),prevState => ({textVisibleOnPage: !prevState.textVisibleOnPage}));
