@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from "react-router";
-
+import PropTypes from 'prop-types';
 export class PageControl extends Component {
 
   constructor(props) {
@@ -11,6 +11,7 @@ export class PageControl extends Component {
       page: null,
       pageId: 1
     };
+
   }
 
   // handleClick = (event) => {
@@ -31,16 +32,26 @@ export class PageControl extends Component {
   }
   
   
-  async componentDidMount(uiPageId) {
-    if (uiPageId) {
-    const response = await fetch(`http://localhost:5000/api/pages/${uiPageId}`);
-    this.setState({pageId: uiPageId, isPageLoaded: true });
-    } else {
+  async componentDidMount() {
+    var uiPageId = this.getPageIdFromUrl();
+    if (isNaN(parseFloat(uiPageId))) {
       const response = await fetch(`http://localhost:5000/api/pages/${this.state.pageId}`);
       const data = await response.json();
       this.setState({page: data, isPageLoaded: true });
-    }
-    
+  } else {
+    console.log("uiPageId", uiPageId);
+    const response = await fetch(`http://localhost:5000/api/pages/${uiPageId}`);
+    const data = await response.json();
+    this.setState({page: data, pageId: uiPageId, isPageLoaded: true });
+  }
+}
+
+getPageIdFromUrl() {
+    var url = window.location.href;
+    let newPageNum = url.substring(url.lastIndexOf("/") + 1, url.length)
+    console.log("url", url);
+    console.log("newPageNum", newPageNum);
+    return newPageNum;
   }
   
   render() {
