@@ -33,7 +33,7 @@ export class PageControl extends Component {
   
   
   async componentDidMount() {
-    var uiPageId = this.getPageIdFromUrl();
+    const uiPageId = this.getPageIdFromUrl();
     if (isNaN(parseFloat(uiPageId))) {
       const response = await fetch(`http://localhost:5000/api/pages/${this.state.pageId}`);
       const data = await response.json();
@@ -70,51 +70,6 @@ getPageIdFromUrl() {
     );
   }
 }
-
-// async componentDidMount() {
-//   const response = await fetch(`http://localhost:5000/api/pages/5`);
-//   const data = await response.json();
-//   this.setState({page: data[5], loading: false });
-// }
-
-
-// async getDefaultPageAsync() {
-  //   const response = await fetch(`http://localhost:5000/api/pages/1`);
-  //   return await response.json();
-  // }
-  
-  
-//     render() {
-//       var page = this.getDefaultPageAsync()
-//       var displayHtml = page.Doors;
-//       var text = page.Text;
-
-//       return (
-//         <div>
-//             <div>{text}</div>
-//       </div>
-//     );
-//   }
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   //   handleClick = () => {
