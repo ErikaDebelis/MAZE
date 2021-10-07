@@ -47,7 +47,10 @@ export class PageControl extends Component {
           ) : (
             <div>
             <div dangerouslySetInnerHTML={this.translateImageMaps()} />
-            <div>{this.state.page.text}</div>
+            <div className="scroll">
+              <div className="textstyles">
+              {this.state.page.text}</div>
+            </div>
           </div>
         )}
       </div>
