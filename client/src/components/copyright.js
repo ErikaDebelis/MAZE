@@ -5,7 +5,7 @@ export class Copyright extends Component {
 
   render() {
     return (
-      <div>
+      <div className="textlight">
         <h1>Fair Use Act Disclaimer</h1>
         <h5>Last updated October 07, 2021</h5>
         <br/>
