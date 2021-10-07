@@ -2,14 +2,16 @@
 using Maze.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Maze.Migrations
 {
     [DbContext(typeof(MazeContext))]
-    partial class MazeContextModelSnapshot : ModelSnapshot
+    [Migration("20211007174424_pg0")]
+    partial class pg0
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
