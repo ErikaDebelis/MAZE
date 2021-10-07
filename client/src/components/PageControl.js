@@ -14,50 +14,42 @@ export class PageControl extends Component {
 
   }
 
-  // handleClick = (event) => {
-  //   event.preventDefault();
-  //   this.componentDidMount(uiPageId);
-  // }
+  handleClick = (event) => {
+    event.preventDefault();
+    const newPageId = parseInt(event.target.dataset.title)
+    this.setState({pageId: newPageId})
+    this.handleChangingSelectedDoor();
+    console.log('is this handle clickin?', newPageId)
+  }
 
-  // handleChangingSelectedDoor = (id) => {
-  //   const selectedDoor = imageMaps.filter(page => page.pageId === id)[0];
-  //   this.setState({
-  //     selectedDoor: selectedDoor
-  //   });
-  // }
+  async handleChangingSelectedDoor() {
+    const response = await fetch(`http://localhost:5000/api/pages/${this.state.pageId}`);
+    const data = await response.json();
+    this.setState({page: data, isPageLoaded: true });
+  }
+
 
   translateImageMaps = () => {
     const imageMaps = this.state.page.doors;
     return{__html: imageMaps};
   }
   
+  // getPageIdFromUrl() {
+  //   const url = window.location.href;
+  //   let newPageNum = url.substring(url.lastIndexOf("/") + 1, url.length)
+  //   return newPageNum;
+  // }
   
-  async componentDidMount() {
-    const uiPageId = this.getPageIdFromUrl();
-    if (isNaN(parseFloat(uiPageId))) {
-      const response = await fetch(`http://localhost:5000/api/pages/${this.state.pageId}`);
-      const data = await response.json();
-      this.setState({page: data, isPageLoaded: true });
-  } else {
-    console.log("uiPageId", uiPageId);
-    const response = await fetch(`http://localhost:5000/api/pages/${uiPageId}`);
-    const data = await response.json();
-    this.setState({page: data, pageId: uiPageId, isPageLoaded: true });
+  componentDidMount = () => {
+    const element = document.querySelector(".mazin")
+    element.addEventListener('click', this.handleClick)
+    this.handleChangingSelectedDoor()
   }
-}
 
-getPageIdFromUrl() {
-    var url = window.location.href;
-    let newPageNum = url.substring(url.lastIndexOf("/") + 1, url.length)
-    console.log("url", url);
-    console.log("newPageNum", newPageNum);
-    return newPageNum;
-  }
-  
   render() {
     console.log(this.state.page)
     return (
-      <div>
+      <div className="mazin">
         {!this.state.isPageLoaded || !this.state.page ? (
           <div> loading...</div>
           ) : (
