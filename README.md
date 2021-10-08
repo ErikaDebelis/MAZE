@@ -1,5 +1,5 @@
 # MAZE (book authored by Christopher Manson) 
-#### A web application of the choose-your-own-adventure-type book MAZE by Christopher Manson.A user will be able to navigate the maze by clicking the door number sign. Will you survive the maze? Can you solve the riddle?"
+#### A web application of the choose-your-own-adventure-type book MAZE by Christopher Manson. A user will be able to navigate the maze by clicking the door number sign. Will you survive the maze? Can you solve the riddle?"
 
 #### Code authored by Erika Debelis
 #### about the tech:
@@ -29,6 +29,7 @@
 * _Git BASH_
 
 ![maze-gif](https://raw.githubusercontent.com/ErikaDebelis/MAZE/main/server/wwwroot/images/maze-gif.gif)
+
 _(a gif for a visual preview of the site)_
 ## Setup/Installation Requirements
 
@@ -83,11 +84,9 @@ _no known bugs at this time_
 
 _MIT_
 
-Fair Use Act Disclaimer
+## Fair Use Act Disclaimer
 Last updated October 07, 2021
-
-
-## Website Disclaimer
+### Website Disclaimer
 The information used by Erika Debelis on https://github.com/ErikaDebelis/MAZE (the "Site") is for educational purposes only. All information on the Site is used for demonstration purposes only and I (Erika Debelis) claim no rights to the contents of the book MAZE by Christopher Manson. I only claim the rights and ownership of the code written to make the dynamic web application. If anyone enjoys this web application of MAZE please find and purchase MAZE, this a lovely book.
 
 #### Fair Use
