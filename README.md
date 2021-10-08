@@ -1,38 +1,105 @@
-### Research & Planning Log
-#### Friday, 09/17
-* 8:00: watching Redux Tutorial - Learn Redux from Scratch - programming with Mosh tp get a deeper understanding of redux https://www.youtube.com/watch?v=poQXNp9ItL4&t=1237s
-* 9:30: research on how to complete the maze https://dreamsofgerontius.com/2016/10/17/maze-finding-the-path/
-* 10:00: further research into MAZE and the riddle https://mazecast.com/the-riddle-of-the-maze-the-solution/
-* 11:30: brainstorming- full CRUD not needed for api when its a book with a set number of pages... unsure how to implement door options
-* 12:00: lunch
-* 1:40: research into react w asp.net core https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetcore-5.0&tabs=visual-studio
-* 2:30: trying to fix verisoning/ build issues with babel-eslint
-* 4:00: researching how to build/ configure react w asp.net core https://www.pluralsight.com/courses/aspdotnet-core-react-building-website?aid=701j0000001heIoAAI&promo=&utm_source=non_branded&utm_medium=digital_paid_search_google&utm_campaign=US_Dynamic&utm_content=&cq_cmp=175953558&gclid=CjwKCAjw-ZCKBhBkEiwAM4qfF1e0YtBlyLFSWNRJL4b5vUk5hOwt6128rJLNE2u7xxZg5C-YdRctURoCTNEQAvD_BwE  https://www.youtube.com/watch?v=gpfP60KjmZU
+# MAZE (book authored by Christopher Manson) 
+#### A web application of the choose-your-own-adventure-type book MAZE by Christopher Manson.A user will be able to navigate the maze by clicking the door number sign. Will you survive the maze? Can you solve the riddle?"
+
+#### Code authored by Erika Debelis
+#### about the tech:
+ A full-stack site; built with C# ASP .Net Core API back-end and Javascript/React.js front-end. The hard-coded database holds the maze book pages as objects and their corresponding data as properties. The React.js front-end will call to the database and render the next page according to the door clicked in this single page web application.
+
+#### Important code decisions made:
+###### To prevent cheating
+1. This was built as a single page web application, so the Url does not change with the changing pages.
+2. Each page has unique hidden clickable areas rather than obvious buttons (as some doors are hidden). these clickable areas will change the page the number of the door as stated above.
 
 
+## Technologies Used
+
+* _C#_
+* _Entity Framework Core_
+* _ASP .NET Core MVC_
+* _SPA Services_
+* _LINQ_
+* _Postman_
+* _React.js_
+* _JavaScript_
+* _JSX_
+* _HTML Image Maps_
+* _NPM_
+* _Babel_
+* _ES6_
+* _Git BASH_
+
+![maze-gif](/images/maze-gif.gif)
+_(a gif for a visual preview of the site)_
+## Setup/Installation Requirements
+
+1. Download or clone https://github.com/ErikaDebelis/MAZE to your local machine
+2. Navigate to the client directory and run "npm install" in the git BASH terminal to install dependencies
+    ``$ npm install``
+3. Navigate back out of the client directory and the into the server directory. From that folder you'll want to create appsettings.json file and add the following code to the file: touch appsettings.json
+
+```
+{
+  "Logging": 
+  {
+    "LogLevel": 
+    {
+      "Default": "Warning",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": 
+  {
+    "DefaultConnection": "Server=localhost;Port=3306;database=mazer;uid={YOUR_USERNAME_NAME};pwd={YOUR_PASSWORD};"
+  }
+}
+```
+Be sure to remove the ``{YOUR_USERNAME_NAME}`` and ``{YOUR_PASSWORD}`` and fill in the the code snippet with your username for MySQL, and MySQL password _Do not include the curly brackets in your code snippet of appsettings.json_
+
+4. Make sure EF Core is installed to create and utilize migrations. Run the following code in the git BASH terminal to install.
+    ``$ dotnet tool install --global dotnet-ef --version 3.0.0``
+
+5. Run "dotnet restore" in the git BASH terminal to install needed dependencies.
+    ``$ dotnet restore``
+
+6. Run "dotnet build" in the git BASH terminal to minify the code.
+    ``$ dotnet build``
+
+7. Run "dotnet ef database update" in the git BASH terminal create the database outlined from the Model within the project.
+    ``$ dotnet ef database update``
+
+8. Run "dotnet run" in the git BASH terminal to  minify the code, and run the project in the terminal.
+    ``$ dotnet watch run``
+
+9. View the API by database alone by downloading Postman and entering http://localhost:5000/api/pages 
+
+10. View the entire site built together by visiting http://localhost:5000/ in a new web browser( such as google chrome) tab!
+## Bugs
+
+_no known bugs at this time_
+
+## License
+
+_MIT_
+
+Fair Use Act Disclaimer
+Last updated October 07, 2021
 
 
-#### Friday, 09/24
-* 8:00: researching button options to change page/door- found html image maps! https://www.allsomedock.com/media/berserk/plugins/image_map/ https://www.w3schools.com/html/html_images_imagemap.asp https://www.youtube.com/watch?v=8YsvA0r3rI0
-* 8:30: begin creating image maps using https://www.image-map.net/
+## Website Disclaimer
+The information used by Erika Debelis on https://github.com/ErikaDebelis/MAZE (the "Site") is for educational purposes only. All information on the Site is used for demonstration purposes only and I (Erika Debelis) claim no rights to the contents of the book MAZE by Christopher Manson. I only claim the rights and ownership of the code written to make the dynamic web application. If anyone enjoys this web application of MAZE please find and purchase MAZE, this a lovely book.
 
-(updated steps for function 09/27)
-* im thinking about my function needed to change pages:
-* 1. hide current img
-* 2. make api call to database to get text, img relative route, and doors (aka html image maps saved as a string)
-* 3. use img path string to show img in view (the image that corresponds with html image map clicked on previous page) 
-* 4. use the doors htmlimagemap string and then translate it back to html and then use the dangerouslSetInnerHtml() so i can use it in react
-* 5. use text grabbed from api call and display on the page
-######EXTRA- BEYOND MVP
-* log the room/page you're leaving in a window to see the moves you've made and rooms you've already been to
-* add animation to text 
+#### Fair Use
+Copyright Disclaimer under section 107 of the Copyright Act of 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research.
 
-_will want it curried enough to make this usable for any page within the maze_
+Fair use is a use permitted by copyright statute that might otherwise be infringing.
 
+#### Fair Use Definition
 
+Fair use is a doctrine in United States copyright law that allows limited use of the copyrighted material without requiring permission from the rights holders, such as commentary, criticism, news reporting, research, teaching, or scholarship. It provides for the legal, non-licensed citation or incorporation of copyrighted material in another author's work under a four-factor balancing test.
 
+## Contact Information
+if any issues are discovered while navigating the site, please let me know! It will help me learn and grow!
 
-* 11:40: looking into how to utilize html image maps within a react app- initially found a package called react-image-mapper to install but after further research the package is no longer being maintained - will want to look elsewhere
-* 12:15: may not look to implement html image maps as components anymore- instead use 'dangerouslySetInnerHTML' to set HTML directly from react https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml - off to lunch
-* 2:00: researching ePub and react reader https://www.npmjs.com/package/react-reader
-* more research on how to create book app in react  https://www.youtube.com/watch?v=7pWdNQS7ork
+Erika Debelis _erika.debelis@gmail.com_

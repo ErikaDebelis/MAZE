@@ -45,7 +45,7 @@ export class PageControl extends Component {
         {!this.state.isPageLoaded || !this.state.page ? (
           <div> loading...</div>
           ) : (
-            <div>
+          <div>
             <div dangerouslySetInnerHTML={this.translateImageMaps()} />
             <div className="scroll">
               <div className="textstyles">
