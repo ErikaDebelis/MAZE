@@ -10,6 +10,9 @@
 1. This was built as a single page web application, so the Url does not change with the changing pages.
 2. Each page has unique hidden clickable areas rather than obvious buttons (as some doors are hidden). these clickable areas will change the page the number of the door as stated above.
 
+![maze-gif](https://raw.githubusercontent.com/ErikaDebelis/MAZE/main/server/wwwroot/images/maze-gif.gif)
+
+_(a gif for a visual preview of the site)_
 
 ## Technologies Used
 
@@ -28,15 +31,12 @@
 * _ES6_
 * _Git BASH_
 
-![maze-gif](https://raw.githubusercontent.com/ErikaDebelis/MAZE/main/server/wwwroot/images/maze-gif.gif)
-
-_(a gif for a visual preview of the site)_
 ## Setup/Installation Requirements
 
 1. Download or clone https://github.com/ErikaDebelis/MAZE to your local machine
 2. Navigate to the client directory and run "npm install" in the git BASH terminal to install dependencies
     ``$ npm install``
-3. Navigate back out of the client directory and the into the server directory. From that folder you'll want to create appsettings.json file and add the following code to the file: touch appsettings.json
+3. Navigate back out of the client directory and the into the server directory. From that folder you'll want to create appsettings.json file and add the following code to the file: ``$ touch appsettings.json``
 
 ```
 {
