@@ -3,7 +3,7 @@
 
 #### Code authored by Erika Debelis
 #### about the tech:
- A full-stack site; built with C# ASP .Net Core API back-end and Javascript/React.js front-end. The hard-coded database holds the maze book pages as objects and their corresponding data as properties. The React.js front-end will call to the database and render the next page according to the door clicked in this single page web application.
+ A full-stack site; built with a C# ASP .Net Core API back-end and a Javascript/React.js front-end. The hard-coded database holds the maze book pages as objects and their corresponding data as properties. The React.js front-end will call to the database and render the next page according to the door clicked in this single page web application.
 
 #### Important code decisions made:
 ###### To prevent cheating
@@ -28,7 +28,7 @@
 * _ES6_
 * _Git BASH_
 
-![maze-gif](/images/maze-gif.gif)
+![maze-gif](https://raw.githubusercontent.com/ErikaDebelis/MAZE/main/server/wwwroot/images/maze-gif.gif)
 _(a gif for a visual preview of the site)_
 ## Setup/Installation Requirements
 
