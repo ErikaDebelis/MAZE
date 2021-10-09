@@ -1,4 +1,5 @@
 # MAZE (book authored by Christopher Manson) 
+<img width="180" height="145" src="https://raw.githubusercontent.com/ErikaDebelis/MAZE/main/server/wwwroot/images/maze-thumb.jpg">
 #### A web application of the choose-your-own-adventure-type book MAZE by Christopher Manson. A user will be able to navigate the maze by clicking the door number sign. Will you survive the maze? Can you solve the riddle?"
 
 #### Code authored by Erika Debelis
