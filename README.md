@@ -14,7 +14,7 @@
 2. Each page has unique hidden clickable areas rather than obvious buttons (as some doors are hidden). these clickable areas will change the page the number of the door as stated above.
 
 <p align="center">
-  ![maze-gif](https://raw.githubusercontent.com/ErikaDebelis/MAZE/main/server/wwwroot/images/maze-gif.gif)
+  <img src= "https://raw.githubusercontent.com/ErikaDebelis/MAZE/main/server/wwwroot/images/maze-gif.gif">
 
   _(a gif for a visual preview of the site)_
 </p>
